@@ -112,16 +112,16 @@
     "listFilterWidget.background": "#20232A30",
     "listFilterWidget.noMatchesOutline": "#20232A30",
     "listFilterWidget.outline": "#20232A30",
-    "menu.background": "#20232Af8",
-    "menu.border": "#FF000150",
-    "menu.foreground": "#696B71",
+    "menu.background": "#20232A",
+    "menu.border": "#282C34",
+    "menu.foreground": "#b1b6c1",
     "menu.selectionBackground": "#282C34",
-    "menu.selectionBorder": "#20232A30",
-    "menu.selectionForeground": "#696B71",
-    "menu.separatorBackground": "#696B71",
+    "menu.selectionBorder": "#282C34",
+    "menu.selectionForeground": "#d0d3da",
+    "menu.separatorBackground": "#3e4148",
     "menubar.selectionBackground": "#282C34",
-    "menubar.selectionBorder": "#FF000150",
-    "menubar.selectionForeground": "#696B71",
+    "menubar.selectionBorder": "#282C34",
+    "menubar.selectionForeground": "#d0d3da",
     "minimap.background": "#282c34",
     "minimapGutter.addedBackground": "#FF0007",
     "minimapGutter.deletedBackground": "#FF0005",
@@ -177,7 +177,8 @@
     "statusBar.debuggingForeground": "#A9ABAE",
     "statusBar.foreground": "#b1b6c1", // Done
     "statusBar.noFolderBackground": "#20232A",
-    "statusBarItem.hoverBackground": "#FF000120",
+    "statusBarItem.activeBackground": "#ff0000",
+    "statusBarItem.hoverBackground": "#00ff00",
     "statusBarItem.remoteBackground": "#3e4148",
     "statusBarItem.remoteForeground": "#b1b6c1",
     "tab.activeBackground": "#282C34", // Done
@@ -185,13 +186,14 @@
     "tab.activeForeground": "#d0d3da", // Done
     "tab.activeModifiedBorder": "#00ff00", // Check
     "tab.border": "#181a1f", // Done
+    "tab.hoverForeground": "#d0d3da", // Done
     "tab.inactiveBackground": "#20232A",
-    "tab.inactiveForeground": "#636d83",
-    "tab.unfocusedActiveBorder": "#FF0001", // check
+    "tab.inactiveForeground": "#737c8f",
+    "tab.unfocusedActiveBorder": "#3e4148",
     "tab.unfocusedActiveBackground": "#FF000140",
     "tab.unfocusedActiveForeground": "#696B71",
     "tab.unfocusedInactiveBackground": "#FF000110",
-    "tab.unfocusedInactiveForeground": "#696B717f",
+    "tab.unfocusedInactiveForeground": "#454c5c",
     "terminal.ansiBlack": "#1E2127",
     "terminal.ansiBlue": "#61AFEF",
     "terminal.ansiBrightBlack": "#5C6370",
@@ -199,7 +201,7 @@
     "terminal.ansiBrightCyan": "#56B6C2",
     "terminal.ansiBrightGreen": "#98C379",
     "terminal.ansiBrightMagenta": "#C678DD",
-    "terminal.ansiBrightRed": "#E06C75",
+    "terminal.ansiBrightRed": "#E07C75",
     "terminal.ansiBrightWhite": "#A9ABAE",
     "terminal.ansiBrightYellow": "#D19A66",
     "terminal.ansiCyan": "#56B6C2",
@@ -212,12 +214,12 @@
     "terminalCursor.foreground": "#528bff",
     "textLink.activeForeground": "#3498dbbf",
     "textLink.foreground": "#3498db", // Done
-    "titleBar.activeBackground": "#20232A",
-    "titleBar.activeForeground": "#696B71",
-    "titleBar.border": "#20232A60",
-    "titleBar.inactiveBackground": "#20232A",
-    "titleBar.inactiveForeground": "#FF0001",
-    "tree.indentGuidesStroke": "#3E4148",
+    "titleBar.activeBackground": "#20232A", // Done
+    "titleBar.activeForeground": "#737c8f", // Done
+    "titleBar.border": "#20232A", // Done
+    "titleBar.inactiveBackground": "#20232A", // Done
+    "titleBar.inactiveForeground": "#454c5c", // DOne
+    "tree.indentGuidesStroke": "#454c5c",
     "widget.shadow": "#20232A30",
   },
   "tokenColors": [
