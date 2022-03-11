@@ -16,7 +16,7 @@
     "breadcrumbPicker.background": "#1c1f24",
     "button.background": "#528bff",
     "contrastBorder": "#282c34",                                              // border around badge, buttons, below breadcrumbs
-    "debugToolBar.background": "#20232A", // check
+    "debugToolBar.background": "#323742", // Done
     "diffEditor.insertedTextBackground": "#98C37950",
     "diffEditor.insertedLineBackground": "#98C37930",
     "diffEditor.removedTextBackground": "#E06C7550",
@@ -39,7 +39,7 @@
     "editorBracketMatch.border": "#528bff",
     "editorCursor.foreground": "#528bff",
     "editorError.foreground": "#ff3b30",
-    "editorGroup.border": "#00ff00", // check
+    "editorGroup.border": "#454c5c",                                          // border between split views
     "editorGroupHeader.tabsBackground": "#20232A", // done
     "editorGutter.addedBackground": "#FF000660", // check
     "editorGutter.deletedBackground": "#FF000760", // check
@@ -138,14 +138,14 @@
     "panelTitle.activeForeground": "#d0d3da", // Done
     "panelTitle.inactiveForeground": "#828a9c",                               // Terminal tabs
     "peekView.border": "#20232A30",
-    "peekViewEditor.background": "#696B7105",
-    "peekViewEditor.matchHighlightBackground": "#FF000150",
-    "peekViewEditorGutter.background": "#696B7105",
-    "peekViewResult.background": "#696B7105",
-    "peekViewResult.matchHighlightBackground": "#FF000150",
-    "peekViewResult.selectionBackground": "#FF000170",
-    "peekViewTitle.background": "#696B7105",
-    "peekViewTitleDescription.foreground": "#696B7160",
+    "peekViewEditor.background": "#282c34",
+    "peekViewEditor.matchHighlightBackground": "#3b414f",
+    "peekViewEditorGutter.background": "#282c34",
+    "peekViewResult.background": "#20232a",
+    "peekViewResult.matchHighlightBackground": "#324164",
+    "peekViewResult.selectionBackground": "#324164",
+    "peekViewTitle.background": "#20232a",
+    "peekViewTitleDescription.foreground": "#b1b6c1",
     "pickerGroup.foreground": "#c1c5cd",                                      // f1 -> recently used label
     "progressBar.background": "#323742", // check
     "scrollbar.shadow": "#14161a", // Done
@@ -173,13 +173,13 @@
     "sideBarTitle.foreground": "#9299a8", // Done
     "statusBar.background": "#20232A", // Done
     "statusBar.border": "#282c34", // Done
-    "statusBar.debuggingBackground": "#f39c12", // Check
-    "statusBar.debuggingForeground": "#A9ABAE",
+    "statusBar.debuggingBackground": "#323742", // Check
+    "statusBar.debuggingForeground": "#d0d3da",
     "statusBar.foreground": "#b1b6c1", // Done
     "statusBar.noFolderBackground": "#20232A",
-    "statusBarItem.activeBackground": "#ff0000",
-    "statusBarItem.hoverBackground": "#00ff00",
-    "statusBarItem.remoteBackground": "#3e4148",
+    "statusBarItem.activeBackground": "#53565d", // Done
+    "statusBarItem.hoverBackground": "#3b414f",
+    "statusBarItem.remoteBackground": "#4f5769",
     "statusBarItem.remoteForeground": "#b1b6c1",
     "tab.activeBackground": "#282C34", // Done
     "tab.activeBorder": "#282C34", // Done
@@ -190,9 +190,9 @@
     "tab.inactiveBackground": "#20232A",
     "tab.inactiveForeground": "#737c8f",
     "tab.unfocusedActiveBorder": "#3e4148",
-    "tab.unfocusedActiveBackground": "#FF000140",
-    "tab.unfocusedActiveForeground": "#696B71",
-    "tab.unfocusedInactiveBackground": "#FF000110",
+    "tab.unfocusedActiveBackground": "#282C34",
+    "tab.unfocusedActiveForeground": "#454c5c",
+    "tab.unfocusedInactiveBackground": "#20232A",
     "tab.unfocusedInactiveForeground": "#454c5c",
     "terminal.ansiBlack": "#1E2127",
     "terminal.ansiBlue": "#61AFEF",
