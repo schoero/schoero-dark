@@ -26,10 +26,10 @@
     "dropdown.background": "#20232A", // check
     "dropdown.border": "#3e4148", // Done
     "editor.background": "#282C34", // Done
-    "editor.findMatchBackground": "#696b71",
-    "editor.findMatchBorder": "#696b71",
-    "editor.findMatchHighlightBackground": "#3e4148",
-    "editor.findMatchHighlightBorder": "#3e4148",
+    "editor.findMatchBackground": "#454c5c",
+    "editor.findMatchBorder": "#454c5c",
+    "editor.findMatchHighlightBackground": "#323742",
+    "editor.findMatchHighlightBorder": "#323742",
     "editor.foreground": "#b1b6c1",                                           // font color
     "editor.lineHighlightBackground": "#3e414850",                            // Active line background
     "editor.selectionBackground": "#324164",
