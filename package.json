@@ -17,5 +17,20 @@
                 "path": "./themes/schoero-dark-color-theme.json"
             }
         ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/schoero/schoero-dark.git"
+    },
+    "keywords": [
+      "atom",
+      "vscode",
+      "theme",
+      "dark"
+    ],
+    "author": "Roger Schönbächler",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/schoero/schoero-dark/issues"
     }
 }
