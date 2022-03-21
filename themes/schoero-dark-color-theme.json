@@ -18,10 +18,16 @@
     "activityBarBadge.foreground": "#e0e2e6",
 
 
-    //-- Badge + inlay hints
+    //-- Badge
 
-    "badge.background": "#454c5c",                                            // badge + inlay hints
+    "badge.background": "#454c5c",                                            // badge
     "badge.foreground": "#e0e2e6",
+
+
+    //-- Inlay hints
+
+    "editorInlayHint.background": "#454c5c",
+    "editorInlayHint.foreground": "#e0e2e6",
 
 
     //-- Breadcrumbs
@@ -32,7 +38,10 @@
     "breadcrumb.foreground": "#737c8f",                                       // breadcrumb default
     "breadcrumbPicker.background": "#1c1f24",
     
-    "button.background": "#528bff",
+    "button.background": "#3b414f",
+    "button.foreground": "#e0e2e6",
+    "button.hoverBackground": "#454c5c",
+    "button.secondaryBackground": "#323742",
     "contrastBorder": "#282c34",                                              // border around badge, buttons, below breadcrumbs
     "debugToolBar.background": "#323742", // Done
 
@@ -67,7 +76,7 @@
     "editor.findMatchHighlightBackground": "#323742",
     "editor.findMatchHighlightBorder": "#323742",
     "editor.foreground": "#b1b6c1",                                           // font color
-    "editor.lineHighlightBackground": "#323742",                            // Active line background
+    "editor.lineHighlightBackground": "#323742",                              // Active line background
     "editor.selectionBackground": "#324164",
     "editor.selectionHighlightBackground": "#3e41481a", // fine tune
     "editor.selectionHighlightBorder": "#3e41481a", // fine tune
@@ -121,10 +130,10 @@
     "editorWarning.foreground": "#d0b243",
     "editorWhitespace.foreground": "#3e4148",
     "editorWidget.background": "#20232A",
-    "editorWidget.border": "#FF0005",
+    "editorWidget.border": "#636d83", // Check
     "editorWidget.resizeBorder": "#454c5c",
-    "extensionButton.prominentBackground": "#528bff",
-    "extensionButton.prominentHoverBackground": "#75a2ff",
+    "extensionButton.prominentBackground": "#4f5769",
+    "extensionButton.prominentHoverBackground": "#636d83",
     "focusBorder": "#636d83", // Done
 
 
