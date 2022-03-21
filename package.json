@@ -2,13 +2,15 @@
     "name": "schoero-dark",
     "displayName": "schoero-dark",
     "description": "A personal dark theme",
-    "version": "0.0.1",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.65.0"
     },
     "categories": [
         "Themes"
     ],
+    "icon": "https://github.com/schoero/schoero-dark/blob/main/assets/icon.png",
+    "publisher": "schoero",
     "contributes": {
         "themes": [
             {
