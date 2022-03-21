@@ -9,7 +9,7 @@
     "categories": [
         "Themes"
     ],
-    "icon": "https://github.com/schoero/schoero-dark/blob/main/assets/icon.png",
+    "icon": "assets/icon.png",
     "publisher": "schoero",
     "contributes": {
         "themes": [
