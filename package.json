@@ -1,0 +1,38 @@
+{
+    "name": "schoero-dark",
+    "displayName": "schoero-dark",
+    "description": "A personal dark theme",
+    "version": "0.0.2",
+    "engines": {
+        "vscode": "^1.65.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "icon": "https://github.com/schoero/schoero-dark/blob/main/assets/icon.png",
+    "publisher": "schoero",
+    "contributes": {
+        "themes": [
+            {
+                "label": "schoero-dark",
+                "uiTheme": "vs-dark",
+                "path": "./themes/schoero-dark-color-theme.json"
+            }
+        ]
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/schoero/schoero-dark.git"
+    },
+    "keywords": [
+      "atom",
+      "vscode",
+      "theme",
+      "dark"
+    ],
+    "author": "Roger Schönbächler",
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/schoero/schoero-dark/issues"
+    }
+}
