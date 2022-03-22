@@ -26,8 +26,8 @@
 
     //-- Inlay hints
 
-    "editorInlayHint.background": "#454c5c",
-    "editorInlayHint.foreground": "#e0e2e6",
+    "editorInlayHint.background": "#3b414f",
+    "editorInlayHint.foreground": "#b1b6c1",
 
 
     //-- Breadcrumbs
