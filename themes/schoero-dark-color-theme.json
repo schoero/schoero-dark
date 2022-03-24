@@ -78,8 +78,8 @@
     "editor.foreground": "#b1b6c1",                                           // font color
     "editor.lineHighlightBackground": "#323742",                              // Active line background
     "editor.selectionBackground": "#324164",
-    "editor.selectionHighlightBackground": "#3e41481a", // fine tune
-    "editor.selectionHighlightBorder": "#3e41481a", // fine tune
+    "editor.selectionHighlightBackground": "#323742", // fine tune
+    "editor.selectionHighlightBorder": "#323742", // fine tune
     "editorBracketMatch.background": "#282c34", // Done
     "editorBracketMatch.border": "#828a9c", // Done
     "editorCursor.foreground": "#528bff",
@@ -434,6 +434,7 @@
         "support.type.property-name.json punctuation",                          // JSON property quotes
         "markup.heading",                                                       // Markdown Markup heading
         "punctuation.definition.heading",                                       // Markdown Markup heading punctuation
+        "entity.name.tag.css",                                                  // CSS html tag
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -519,6 +520,8 @@
         "punctuation.definition.string",                                        // String quotes
         "entity.name.type.module",                                              // Imported module
         "meta.class",                                                           // class keyword
+        "entity.name.type.class",                                               // Class name
+        "entity.other.inherited-class",                                         // Inherited class
         "string.template",                                                      // Template strings
         "markup.inline.raw.string.markdown",                                    // Markdown raw string
         "markup.inline.raw.string.markdown"
