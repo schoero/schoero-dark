@@ -155,7 +155,7 @@
     //-- Input
 
     "input.background": "#282C34",
-    "input.border": "#3e4148",
+    "input.border": "#3b414f",
     "input.foreground": "#d0d3da",
     "input.placeholderForeground": "#737c8f",
     "inputOption.activeBackground": "#696B7130",
