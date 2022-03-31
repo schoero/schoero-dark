@@ -484,6 +484,8 @@
         "meta.return.type",                                                     // return type annotation
         "keyword.operator.type.annotation",                                     // return type colon
         "keyword.operator.expression.typeof",                                   // typeof keyword
+        "support.constant",                                                     // constants
+        "entity.name.type.module",                                              // Imported module
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -518,12 +520,11 @@
       "scope": [
         "string.quoted",                                                        // String literals
         "punctuation.definition.string",                                        // String quotes
-        "entity.name.type.module",                                              // Imported module
-        "meta.class",                                                           // class keyword
-        "entity.name.type.class",                                               // Class name
-        "entity.other.inherited-class",                                         // Inherited class
         "string.template",                                                      // Template strings
         "markup.inline.raw.string.markdown",                                    // Markdown raw string
+        "entity.name.type.class",                                               // Class name
+        "entity.other.inherited-class",                                         // Inherited class
+        "meta.class",                                                           // class
         "markup.inline.raw.string.markdown"
       ],
       "settings": {
