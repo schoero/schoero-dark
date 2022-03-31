@@ -1,4 +1,5 @@
 {
+  // Color scheme: https://maketintsandshades.com/#282c34,636d83
   "name": "schoero-dark",
   "type": "dark",
   "colors": {
@@ -154,7 +155,7 @@
     //-- Input
 
     "input.background": "#282C34",
-    "input.border": "#3e4148",
+    "input.border": "#3b414f",
     "input.foreground": "#d0d3da",
     "input.placeholderForeground": "#737c8f",
     "inputOption.activeBackground": "#696B7130",
@@ -173,6 +174,11 @@
     "keybindingLabel.border": "#4f5769",
     "keybindingLabel.bottomBorder": "#4f5769",
     "keybindingLabel.foreground": "#e0e2e6",
+
+
+    //-- Quick input
+
+    "quickInputTitle.background": "#20232a",                                  // Quick input title background (settings sync configure title)
 
 
     //-- List
@@ -384,13 +390,18 @@
     {
       "name": "Gray - Text color",
       "scope": [
-        "source",                                                                // Everything
+        "source",                                                               // Everything
         "constant.other.color",
         "punctuation",                                                          // Curly braces and brackets and semicolon
-        "keyword.operator",                                                     // Operators
         "meta.brace.square",                                                    // Square brackets
         "meta.brace.round",                                                     // Round brackets
         "variable.other.jsdoc",                                                 // JSDoc var
+
+
+        //-- CSS
+
+        "support.constant.property-value.css",                                  // CSS property values
+
       ],
       "settings": {
         "foreground": "#b1b6c1"
@@ -399,6 +410,10 @@
     {
       "name": "Medium dark Gray",
       "scope": [
+
+
+        //-- Markdown
+
         "markup.fenced_code.block.markdown",                                    // Markdown code blocks
       ],
       "settings": {
@@ -425,21 +440,50 @@
         "variable.other.property",                                              // Class property
         "variable.language.super",                                              // Super
         "variable.language.this",                                               // this keyword
-        "meta.tag",                                                             // HTML tags
         "meta.import",                                                          // Import
         "variable.other.readwrite.alias",                                       // Alias
         "punctuation.definition.template-expression",                           // Template expression: ${}
         "support.variable.property",                                            // Variable property: .length
         "support.type.property-name.json",                                      // JSON property name
         "support.type.property-name.json punctuation",                          // JSON property quotes
+        
+
+        //-- HTML
+
+        "meta.tag",                                                             // HTML tags
+
+
+        //-- Markdown
+
         "markup.heading",                                                       // Markdown Markup heading
         "punctuation.definition.heading",                                       // Markdown Markup heading punctuation
+
+
+        //-- CSS
+        
         "entity.name.tag.css",                                                  // CSS html tag
+
+
+        //-- PHP
+
+        "variable.other.php",                                                   // PHP variable
+        "punctuation.definition.variable.php",                                  // PHP variable punctuation
       ],
       "settings": {
         "foreground": "#E06C75"
       }
-    },{
+    },
+    {
+      "name": "Dark Red",
+      "scope": [
+        "punctuation.section.embedded.begin.php",                               // PHP embedded code begin
+        "punctuation.section.embedded.end.php",                                 // PHP embedded code end
+      ],
+      "settings": {
+        "foreground": "#b3565e"
+      }
+    },
+    {
       "name": "Purple",
       "scope": [
         "storage",                                                              // Storage
@@ -457,9 +501,27 @@
         "keyword.operator.expression.instanceof",                               // instanceof keyword
         "keyword.operator.expression.delete",                                   // delete keyword
         "keyword.operator.expression.void",                                     // void keyword
+        
+        
+        //-- Markdown
+        
         "markup.underline.link.markdown",                                       // Markdown link
         "punctuation.definition.metadata.markdown",                             // Markdown punctuation
+
+
+        //-- Shell
+
         "keyword.operator.redirect.shell",                                      // shell redirect
+
+
+        //-- PHP
+
+        "keyword.operator.logical.php",                                         // PHP logical operators
+        "keyword.operator.comparison.php",                                      // PHP comparison operators
+        "keyword.operator.arithmetic.php",                                      // PHP arithmetic operators
+        "keyword.operator.assignment.php",                                      // PHP assignment operators
+        "keyword.operator.bitwise.php",                                         // PHP bitwise operators
+
       ],
       "settings": {
         "foreground": "#C678DD"
@@ -469,6 +531,10 @@
       "scope": [
         "meta.function-call",                                                   // function calls
         "entity.name.function",                                                 // function names
+
+
+        //-- Markdown
+
         "string.other.link.title.markdown",                                     // Markdown link title
       ],
       "settings": {
@@ -480,12 +546,36 @@
         "support.type.primitive",                                               // primitive type like string | number
         "support.type.builtin",                                                 // builtin type like undefined
         "meta.interface",                                                       // interfaces
-        "constant.language.json",                                               // JSON true false etc
         "meta.return.type",                                                     // return type annotation
         "keyword.operator.type.annotation",                                     // return type colon
         "keyword.operator.expression.typeof",                                   // typeof keyword
         "support.constant",                                                     // constants
         "entity.name.type.module",                                              // Imported module
+        "keyword.operator.logical",                                             // Logical operators
+        "keyword.operator.assignment",                                          // Assignment operators
+        "keyword.operator.comparison",                                          // Comparison operators
+        "keyword.operator.arithmetic",                                          // Arithmetic operators
+        "keyword.operator.bitwise",                                             // Bitwise operators
+        "keyword.operator.increment",                                           // Increment and decrement operators
+        "keyword.operator.ternary",                                             // Ternary operator
+
+
+
+        //-- JSON
+
+        "constant.language.json",                                               // JSON true false etc
+
+
+        //-- PHP
+
+        "support.function.basic_functions.php",                                 // PHP built-in functions
+        "support.function.file.php",                                            // PHP built-in functions
+        "support.function.dir.php",                                             // PHP built-in functions
+        "support.function.string.php",                                          // PHP built-in functions
+        "support.function.construct.output.php",                                // PHP built-in functions
+        "support.function.construct.input.php",                                 // PHP built-in functions
+        "support.function.construct.php",                                       // PHP built-in functions
+        
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -499,8 +589,32 @@
         "entity.other.attribute-name",                                          // HTML attribute name
         "constant.numeric.decimal",                                             // Decimal numbers
         "constant.language.undefined",                                          // undefined keyword
+
+
+        //-- Markdown
+
         "punctuation.definition.link.title.begin.markdown",                     // Markdown Link title begin
         "punctuation.definition.link.title.end.markdown",                       // Markdown Link title end
+
+
+        //-- CSS
+
+        "keyword.other.unit.px.css",                                            // CSS px unit
+        "keyword.other.unit.em.css",                                            // CSS em unit
+        "keyword.other.unit.rem.css",                                           // CSS rem unit
+        "keyword.other.unit.vh.css",                                            // CSS vh unit
+        "keyword.other.unit.vw.css",                                            // CSS vw unit
+        "keyword.other.unit.vmin.css",                                          // CSS vmin unit
+        "keyword.other.unit.vmax.css",                                          // CSS vmax unit
+        "keyword.other.unit.ch.css",                                            // CSS ch unit
+        "keyword.other.unit.ex.css",                                            // CSS ex unit
+        "keyword.other.unit.in.css",                                            // CSS in unit
+        "keyword.other.unit.cm.css",                                            // CSS cm unit
+        "keyword.other.unit.mm.css",                                            // CSS mm unit
+        "keyword.other.unit.pc.css",                                            // CSS pc unit
+        "keyword.other.unit.pt.css",                                            // CSS pt unit
+        "keyword.other.unit.percentage.css",                                    // CSS percentage unit
+
       ],
       "settings": {
         "foreground": "#D19A66"
