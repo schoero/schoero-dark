@@ -2,7 +2,7 @@
     "name": "schoero-dark",
     "displayName": "schoero-dark",
     "description": "A personal dark theme",
-    "version": "0.0.6",
+    "version": "0.0.7",
     "engines": {
         "vscode": "^1.65.0"
     },
@@ -21,18 +21,18 @@
         ]
     },
     "repository": {
-      "type": "git",
-      "url": "git+https://github.com/schoero/schoero-dark.git"
+        "type": "git",
+        "url": "git+https://github.com/schoero/schoero-dark.git"
     },
     "keywords": [
-      "atom",
-      "vscode",
-      "theme",
-      "dark"
+        "atom",
+        "vscode",
+        "theme",
+        "dark"
     ],
     "author": "Roger Schönbächler",
     "license": "MIT",
     "bugs": {
-      "url": "https://github.com/schoero/schoero-dark/issues"
+        "url": "https://github.com/schoero/schoero-dark/issues"
     }
 }
