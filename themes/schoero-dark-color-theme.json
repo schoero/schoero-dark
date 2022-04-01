@@ -662,7 +662,8 @@
         "keyword.operator.ternary",                                             // Ternary operator
         "keyword.operator.optional",                                            // Optional operator
         "keyword.operator.type",                                                // Type operators
-
+        "keyword.operator.spread",                                              // Spread operator
+        "keyword.operator.rest",                                                // Rest operator
 
 
         //-- JSON
