@@ -369,8 +369,8 @@
     {
       "name": "Dark gray - comment",
       "scope": [
-        "comment",
-        "punctuation.definition.comment"
+        "punctuation.definition.comment",                                       // Comment punctuation
+        "comment",                                                              // Comment
       ],
       "settings": {
         "fontStyle": "italic",
@@ -415,9 +415,16 @@
         //-- Markdown
 
         "markup.fenced_code.block.markdown",                                    // Markdown code blocks
+        "punctuation.definition.quote.begin.markdown",                          // Markdown quotes punctuation
+        "markup.quote.markdown",                                                // Markdown quotes
+
+
+        //-- Shell
+
+        "meta.scope.subshell.shell",                                            // Subshell
       ],
       "settings": {
-        "foreground": "#9299a8"
+        "foreground": "#828a9c"
       }
     },
     {
@@ -457,6 +464,9 @@
 
         "markup.heading",                                                       // Markdown Markup heading
         "punctuation.definition.heading",                                       // Markdown Markup heading punctuation
+        "punctuation.definition.list.begin.markdown",                           // Markdown Markup list
+        "markup.deleted.diff",                                                  // Markdown Markup deleted
+        "punctuation.definition.deleted.diff",                                  // Markdown Markup deleted punctuation
 
 
         //-- CSS
@@ -468,6 +478,18 @@
 
         "variable.other.php",                                                   // PHP variable
         "punctuation.definition.variable.php",                                  // PHP variable punctuation
+        
+
+        //-- YAML
+
+        "entity.name.tag.yaml",                                                 // YAML tag
+
+
+        //-- Shell
+
+        "variable.other.normal.shell",                                          // Shell variable
+        "variable.other.special.shell",                                         // Shell special variable
+        
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -476,11 +498,84 @@
     {
       "name": "Dark Red",
       "scope": [
+
+
+        //-- PHP
+
         "punctuation.section.embedded.begin.php",                               // PHP embedded code begin
         "punctuation.section.embedded.end.php",                                 // PHP embedded code end
+
+
+        //-- Shell
+
+        "punctuation.definition.variable.shell",                                // Shell variable
+
+
+        //-- Markdown
+
+        "fenced_code.block.language.markdown",                                  // Markdown code block language
+        "fenced_code.block.language",                                           // Markdown code block language
+        "punctuation.definition.markdown"
+
       ],
       "settings": {
-        "foreground": "#b3565e"
+        "foreground": "#b3565e",
+      }
+    },
+    {
+      "name": "Striketrough",
+      "scope": [
+
+
+        //-- Markdown
+
+        "markup.strikethrough.markdown"                                         // Markdown strikethrough
+      ],
+      "settings": {
+        "fontStyle": "strikethrough"
+      }
+    },
+    {
+      "name": "Italic",
+      "scope": [
+
+
+        //-- Markdown
+
+        "markup.italic.markdown"                                                // Markdown bold
+        
+      ],
+      "settings": {
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Bold",
+      "scope": [
+
+
+        //-- Markdown
+
+        "markup.bold.markdown"                                                  // Markdown bold
+        
+      ],
+      "settings": {
+        "fontStyle": "bold"
+      }
+    },
+    {
+      "name": "No font style",
+      "scope": [
+
+
+        //-- Markdown
+
+        "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
+        "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
+        "punctuation.definition.italic.markdown",                               // Markdown italic punctuation
+      ],
+      "settings": {
+        "fontStyle": ""
       }
     },
     {
@@ -526,7 +621,8 @@
       "settings": {
         "foreground": "#C678DD"
       }
-    },{
+    },
+    {
       "name": "Blue",
       "scope": [
         "meta.function-call",                                                   // function calls
@@ -535,12 +631,18 @@
 
         //-- Markdown
 
-        "string.other.link.title.markdown",                                     // Markdown link title
+        "markup.underline.link.markdown",                                       // Markdown link
+
+
+        //-- ini
+
+        "entity.name.section.group-title.ini",                                  // ini section group title
       ],
       "settings": {
         "foreground": "#61AFEF"
       }
-    },{
+    },
+    {
       "name": "Turquoise",
       "scope": [
         "support.type.primitive",                                               // primitive type like string | number
@@ -575,12 +677,20 @@
         "support.function.construct.output.php",                                // PHP built-in functions
         "support.function.construct.input.php",                                 // PHP built-in functions
         "support.function.construct.php",                                       // PHP built-in functions
+
+
+        //-- Shell
+
+        "support.function.builtin.shell",                                       // Shell built-in functions
+        "punctuation.section.array.shell",                                      // Shell array punctuation
+
         
       ],
       "settings": {
         "foreground": "#56B6C2"
       }
-    },{
+    },
+    {
       "name": "Orange",
       "scope": [
         "variable.other.constant",                                              // constant variable name
@@ -595,6 +705,14 @@
 
         "punctuation.definition.link.title.begin.markdown",                     // Markdown Link title begin
         "punctuation.definition.link.title.end.markdown",                       // Markdown Link title end
+        "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
+        "markup.bold.markdown",                                                 // Markdown bold
+        "punctuation.definition.italic.markdown",                               // Markdown italic punctuation
+        "markup.italic.markdown",                                               // Markdown italic
+        "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
+        "markup.strikethrough.markdown",                                        // Markdown strikethrough
+        "string.other.link.title.markdown",                                     // Markdown link title
+
 
 
         //-- CSS
@@ -619,7 +737,8 @@
       "settings": {
         "foreground": "#D19A66"
       }
-    },{
+    },
+    {
       "name": "Yellow",
       "scope": [
         "meta.type.annotation",                                                 // Type annotation
@@ -629,17 +748,37 @@
       "settings": {
         "foreground": "#E5C07B"
       }
-    },{
+    },
+    {
       "name": "Light green",
       "scope": [
         "string.quoted",                                                        // String literals
         "punctuation.definition.string",                                        // String quotes
         "string.template",                                                      // Template strings
-        "markup.inline.raw.string.markdown",                                    // Markdown raw string
         "entity.name.type.class",                                               // Class name
         "entity.other.inherited-class",                                         // Inherited class
         "meta.class",                                                           // class
-        "markup.inline.raw.string.markdown"
+
+
+        //-- Markdown
+
+        "markup.inline.raw.string.markdown",                                    // Markdown raw string
+        "punctuation.definition.raw.markdown",                                  // Markdown raw string quotes
+        "punctuation.definition.inserted.diff",                                 // Markdown inserted diff
+        "markup.inserted.diff",                                                 // Markdown inserted diff
+
+
+        //-- YAML
+
+        "string.unquoted.plain.in.yaml",                                        // YAML unquoted plain string
+        "string.unquoted.plain.out.yaml",                                       // YAML unquoted plain string
+
+
+        //-- Shell
+
+        "variable.other.bracket.shell ",                                        // Shell bracket variable
+        "string.quoted.double.shell"                                            // Shell double quoted string
+
       ],
       "settings": {
         "foreground": "#98C379"
