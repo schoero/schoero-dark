@@ -664,6 +664,7 @@
         "keyword.operator.type",                                                // Type operators
         "keyword.operator.spread",                                              // Spread operator
         "keyword.operator.rest",                                                // Rest operator
+        "keyword.operator.relational",                                          // Relational operators like < > <= >=
 
 
         //-- JSON
