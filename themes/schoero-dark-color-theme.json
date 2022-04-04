@@ -44,7 +44,11 @@
     "button.hoverBackground": "#454c5c",
     "button.secondaryBackground": "#323742",
     "contrastBorder": "#282c34",                                              // border around badge, buttons, below breadcrumbs
-    "debugToolBar.background": "#323742", // Done
+    
+    
+    //-- Debugger
+
+    "debugToolBar.background": "#282c34", // Done
 
 
     //-- Diff Editor
@@ -193,9 +197,10 @@
     "list.inactiveSelectionBackground": "#323742bf",
     "list.inactiveSelectionForeground": "#94969a",
     "list.warningForeground": "#d0b243", // check
-    "listFilterWidget.background": "#20232A30",
-    "listFilterWidget.noMatchesOutline": "#20232A30",
-    "listFilterWidget.outline": "#20232A30",
+    "list.filterMatchBackground": "#454c5c", // Done
+    "listFilterWidget.background": "#20232a", // Done
+    "listFilterWidget.noMatchesOutline": "#c0392b", // Done
+    "listFilterWidget.outline": "#4f5769", // Done
 
 
     //-- Menu
