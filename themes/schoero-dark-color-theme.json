@@ -312,6 +312,8 @@
     "statusBarItem.hoverBackground": "#3b414f",
     "statusBarItem.remoteBackground": "#323742",
     "statusBarItem.remoteForeground": "#a1a7b5",
+    "statusBarItem.prominentBackground": "#323742", // Done
+    "statusBarItem.prominentForeground": "#a1a7b5",
 
 
     //-- Tabs
