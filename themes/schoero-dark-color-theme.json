@@ -453,7 +453,8 @@
         "variable.language.super",                                              // Super
         "variable.language.this",                                               // this keyword
         "meta.import",                                                          // Import
-        "variable.other.readwrite.alias",                                       // Alias
+        "variable.other.readwrite.alias",                                       // Import as
+        "variable.other.readwrite",                                             // Import as
         "punctuation.definition.template-expression",                           // Template expression: ${}
         "support.variable.property",                                            // Variable property: .length
         "support.type.property-name.json",                                      // JSON property name
