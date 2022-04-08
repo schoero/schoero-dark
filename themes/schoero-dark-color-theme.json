@@ -397,7 +397,6 @@
     {
       "name": "Gray - Text color",
       "scope": [
-        "source",                                                               // Everything
         "constant.other.color",
         "punctuation",                                                          // Curly braces and brackets and semicolon
         "meta.brace.square",                                                    // Square brackets
@@ -465,7 +464,7 @@
 
         //-- HTML
 
-        "meta.tag",                                                             // HTML tags
+        "entity.name.tag",                                                      // HTML tags
 
 
         //-- Markdown
@@ -764,7 +763,7 @@
     {
       "name": "Light green",
       "scope": [
-        "string.quoted",                                                        // String literals
+        "string",                                                               // String literals
         "punctuation.definition.string",                                        // String quotes
         "string.template",                                                      // Template strings
         "entity.name.type.class",                                               // Class name
