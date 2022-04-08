@@ -36,6 +36,7 @@
         "url": "https://github.com/schoero/schoero-dark/issues"
     },
     "scripts": {
-        "postversion": "git push && git push --tags"
+        "changelog": "conventional-changelog -p angular -i CHANGELOG.md -s -c .conventional-changelog.config.js && git add CHANGELOG.md",
+        "postversion": "npm run changelog && git push && git push --tags"
     }
 }
