@@ -552,8 +552,13 @@
 
         //-- Markdown
 
-        "markup.italic.markdown"                                                // Markdown bold
-        
+        "markup.italic.markdown",                                               // Markdown bold
+
+
+        //-- CSS
+
+        "support.type.vendored.property-name.css",                              // CSS vendored property name
+
       ],
       "settings": {
         "fontStyle": "italic"
