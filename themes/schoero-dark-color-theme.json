@@ -460,7 +460,7 @@
         "support.type.property-name.json",                                      // JSON property name
         "support.type.property-name.json punctuation",                          // JSON property quotes
         "entity.name.type.module",                                              // Imported module
-        
+
 
         //-- HTML
 
@@ -718,7 +718,6 @@
         "meta.function.misc.css",                                               // CSS misc functions
         "meta.function.timing-function.css",                                    // CSS timing function
 
-        
       ],
       "settings": {
         "foreground": "#56B6C2"
@@ -746,7 +745,6 @@
         "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
         "markup.strikethrough.markdown",                                        // Markdown strikethrough
         "string.other.link.title.markdown",                                     // Markdown link title
-
 
 
         //-- CSS
