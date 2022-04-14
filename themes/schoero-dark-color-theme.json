@@ -669,6 +669,8 @@
       "scope": [
         "support.type.primitive",                                               // primitive type like string | number
         "support.type.builtin",                                                 // builtin type like undefined
+        "support.class",                                                        // class
+        "meta.class",                                                           // class
         "meta.return.type",                                                     // return type annotation
         "keyword.operator.type.annotation",                                     // return type colon
         "keyword.operator.expression.typeof",                                   // typeof keyword
@@ -686,7 +688,6 @@
         "keyword.operator.rest",                                                // Rest operator
         "keyword.operator.relational",                                          // Relational operators like < > <= >=
         "entity.name.type.class",                                               // Class name
-        "meta.class",                                                           // class
 
 
         //-- JSON
