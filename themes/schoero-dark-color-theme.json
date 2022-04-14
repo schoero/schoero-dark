@@ -479,6 +479,7 @@
         //-- CSS
         
         "entity.name.tag.css",                                                  // CSS html tag
+        "meta.function.variable.css",                                           // CSS variable
 
 
         //-- PHP
@@ -624,6 +625,11 @@
         "keyword.operator.assignment.php",                                      // PHP assignment operators
         "keyword.operator.bitwise.php",                                         // PHP bitwise operators
 
+
+        //-- CSS
+
+        "keyword.other.important.css",                                          // CSS important
+
       ],
       "settings": {
         "foreground": "#C678DD"
@@ -695,6 +701,12 @@
         "support.function.builtin.shell",                                       // Shell built-in functions
         "punctuation.section.array.shell",                                      // Shell array punctuation
 
+
+        //-- CSS
+
+        "meta.function.variable.css",                                           // CSS variable function
+        "meta.function.timing-function.css",                                    // CSS timing function
+
         
       ],
       "settings": {
@@ -743,6 +755,9 @@
         "keyword.other.unit.pc.css",                                            // CSS pc unit
         "keyword.other.unit.pt.css",                                            // CSS pt unit
         "keyword.other.unit.percentage.css",                                    // CSS percentage unit
+        "keyword.other.unit.s.css",                                             // CSS s unit
+        "keyword.other.unit.ms.css",                                            // CSS ms unit
+        
 
       ],
       "settings": {
