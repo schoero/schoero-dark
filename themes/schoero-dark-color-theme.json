@@ -712,6 +712,7 @@
         //-- CSS
 
         "meta.function.variable.css",                                           // CSS variable function
+        "meta.function.misc.css",                                               // CSS misc functions
         "meta.function.timing-function.css",                                    // CSS timing function
 
         
