@@ -757,7 +757,12 @@
         "keyword.other.unit.percentage.css",                                    // CSS percentage unit
         "keyword.other.unit.s.css",                                             // CSS s unit
         "keyword.other.unit.ms.css",                                            // CSS ms unit
-        
+        "keyword.other.unit.deg.css",                                           // CSS deg unit
+        "keyword.other.unit.rad.css",                                           // CSS rad unit
+        "keyword.other.unit.turn.css",                                          // CSS turn unit
+        "keyword.other.unit.grad.css",                                          // CSS grad unit
+        "keyword.other.unit.Hz.css",                                            // CSS Hz unit
+        "keyword.other.unit.kHz.css",                                           // CSS kHz unit
 
       ],
       "settings": {
