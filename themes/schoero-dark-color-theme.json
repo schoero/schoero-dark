@@ -654,7 +654,6 @@
       "scope": [
         "support.type.primitive",                                               // primitive type like string | number
         "support.type.builtin",                                                 // builtin type like undefined
-        "meta.interface",                                                       // interfaces
         "meta.return.type",                                                     // return type annotation
         "keyword.operator.type.annotation",                                     // return type colon
         "keyword.operator.expression.typeof",                                   // typeof keyword
@@ -672,6 +671,8 @@
         "keyword.operator.spread",                                              // Spread operator
         "keyword.operator.rest",                                                // Rest operator
         "keyword.operator.relational",                                          // Relational operators like < > <= >=
+        "entity.name.type.class",                                               // Class name
+        "meta.class",                                                           // class
 
 
         //-- JSON
@@ -753,7 +754,7 @@
       "name": "Yellow",
       "scope": [
         "meta.type.annotation",                                                 // Type annotation
-        "support.class",                                                        // Classes
+        "meta.interface",                                                       // interfaces
         "entity.name.type",                                                     // Type name
       ],
       "settings": {
@@ -766,9 +767,6 @@
         "string",                                                               // String literals
         "punctuation.definition.string",                                        // String quotes
         "string.template",                                                      // Template strings
-        "entity.name.type.class",                                               // Class name
-        "entity.other.inherited-class",                                         // Inherited class
-        "meta.class",                                                           // class
 
 
         //-- Markdown
