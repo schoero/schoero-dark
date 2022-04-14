@@ -455,11 +455,11 @@
         "variable.language.this",                                               // this keyword
         "meta.import",                                                          // Import
         "variable.other.readwrite.alias",                                       // Import as
-        "variable.other.readwrite",                                             // Import as
         "punctuation.definition.template-expression",                           // Template expression: ${}
         "support.variable.property",                                            // Variable property: .length
         "support.type.property-name.json",                                      // JSON property name
         "support.type.property-name.json punctuation",                          // JSON property quotes
+        "entity.name.type.module",                                              // Imported module
         
 
         //-- HTML
@@ -658,7 +658,6 @@
         "keyword.operator.type.annotation",                                     // return type colon
         "keyword.operator.expression.typeof",                                   // typeof keyword
         "support.constant",                                                     // constants
-        "entity.name.type.module",                                              // Imported module
         "keyword.operator.logical",                                             // Logical operators
         "keyword.operator.assignment",                                          // Assignment operators
         "keyword.operator.comparison",                                          // Comparison operators
