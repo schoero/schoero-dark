@@ -480,6 +480,8 @@
         
         "entity.name.tag.css",                                                  // CSS html tag
         "meta.function.variable.css",                                           // CSS variable
+        "variable.argument.css",                                                // CSS variable argument
+        "variable.css",                                                         // CSS variable
 
 
         //-- PHP
