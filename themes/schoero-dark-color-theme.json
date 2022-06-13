@@ -53,10 +53,10 @@
 
     //-- Diff Editor
 
-    "diffEditor.insertedTextBackground": "#98C37950",
-    "diffEditor.insertedLineBackground": "#98C37930",
-    "diffEditor.removedTextBackground": "#E06C7550",
-    "diffEditor.removedLineBackground": "#E06C7530",
+    "diffEditor.insertedTextBackground": "#98C37940",
+    "diffEditor.insertedLineBackground": "#98C37905",
+    "diffEditor.removedTextBackground": "#E06C7540",
+    "diffEditor.removedLineBackground": "#E06C7505",
     "diffEditor.diagonalFill": "#53565d", // Done
 
 
