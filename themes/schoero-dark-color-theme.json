@@ -206,7 +206,7 @@
     //-- Menu
 
     "menu.background": "#20232A",
-    "menu.border": "#24282f",
+    "menu.border": "#3e4148",
     "menu.foreground": "#b1b6c1",
     "menu.selectionBackground": "#282C34",
     "menu.selectionBorder": "#282C34",
