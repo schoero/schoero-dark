@@ -367,7 +367,7 @@
     "titleBar.activeForeground": "#737c8f", // Done
     "titleBar.border": "#20232A", // Done
     "titleBar.inactiveBackground": "#20232A", // Done
-    "titleBar.inactiveForeground": "#454c5c", // DOne
+    "titleBar.inactiveForeground": "#454c5c", // Done
 
     "tree.indentGuidesStroke": "#454c5c",
     "widget.shadow": "#20232A30",
