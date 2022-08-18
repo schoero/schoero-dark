@@ -460,6 +460,7 @@
         "support.type.property-name.json",                                      // JSON property name
         "support.type.property-name.json punctuation",                          // JSON property quotes
         "entity.name.type.module",                                              // Imported module
+        "keyword.operator.decrement",                                           // Decrement: --
 
 
         //-- HTML
@@ -795,6 +796,7 @@
         "string",                                                               // String literals
         "punctuation.definition.string",                                        // String quotes
         "string.template",                                                      // Template strings
+        "keyword.operator.increment",                                           // Increment: ++
 
 
         //-- Markdown
