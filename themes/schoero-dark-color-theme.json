@@ -796,6 +796,7 @@
         "string",                                                               // String literals
         "punctuation.definition.string",                                        // String quotes
         "string.template",                                                      // Template strings
+        "tsTaggedTemplates",                                                    // Tagged Template strings
         "keyword.operator.increment",                                           // Increment: ++
 
 
