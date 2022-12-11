@@ -90,7 +90,10 @@
     "editorCursor.foreground": "#528bff",
     "editorCursor.background": "#d0d3da",
     "editorError.foreground": "#d04843",
-    "editorGroup.border": "#454c5c",                                          // border between split views
+    "editorWarning.foreground": "#d0b243",
+    "editorGroup.border": "#454c5c",   
+    "editorInfo.foreground": "#4398d0",
+    "editorHint.foreground": "#4398d0",
     "editorGroupHeader.tabsBackground": "#20232A", // done
     
 
@@ -104,7 +107,6 @@
     "editorHoverWidget.border": "#A9ABAE10",
     "editorIndentGuide.activeBackground": "#53565d",
     "editorIndentGuide.background": "#3e4148",
-    "editorInfo.foreground": "#4398d0",
     "editorLineNumber.activeForeground": "#a1a7b5",
     "editorLineNumber.foreground": "#636d83",
     "editorLink.activeForeground": "#3498dbbf",                               // link color 
@@ -132,7 +134,6 @@
     "editorSuggestWidget.foreground": "#696B71",
     "editorSuggestWidget.highlightForeground": "#d0d3da",
     "editorSuggestWidget.selectedBackground": "#323742",
-    "editorWarning.foreground": "#d0b243",
     "editorWhitespace.foreground": "#3e4148",
     "editorWidget.background": "#20232A",
     "editorWidget.border": "#636d83", // Check
@@ -316,12 +317,19 @@
     "statusBarItem.prominentForeground": "#a1a7b5",
 
 
+    //-- Merge editor
+
+    "mergeEditor.conflict.unhandledUnfocused.border": "#D19A66",
+    "mergeEditor.conflict.unhandledFocused.border": "#D19A66",
+    "mergeEditor.conflict.handledUnfocused.border": "#98C379",
+    "mergeEditor.conflict.handledFocused.border": "#98C379",
+
+
     //-- Tabs
 
     "tab.activeBackground": "#282C34", // Done
     "tab.activeBorder": "#282C34", // Done
     "tab.activeForeground": "#d0d3da", // Done
-    "tab.activeModifiedBorder": "#00ff00", // Check
     "tab.border": "#181a1f", // Done
     "tab.hoverForeground": "#d0d3da", // Done
     "tab.inactiveBackground": "#20232A",
@@ -344,7 +352,7 @@
     "terminal.ansiBrightMagenta": "#C678DD",
     "terminal.ansiBrightRed": "#E07C75",
     "terminal.ansiBrightWhite": "#A9ABAE",
-    "terminal.ansiBrightYellow": "#D19A66",
+    "terminal.ansiBrightYellow": "#D1A066",
     "terminal.ansiCyan": "#56B6C2",
     "terminal.ansiGreen": "#98C379",
     "terminal.ansiMagenta": "#C678DD",
