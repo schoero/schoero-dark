@@ -385,7 +385,7 @@
 
     //-- Plugins
 
-    "editorCodeLens.foreground": "#636d83",
+    "editorCodeLens.foreground": "#4f5769",
 
   },
   "tokenColors": [
