@@ -128,7 +128,8 @@
     "editorOverviewRuler.addedForeground": "#43d08a",
     "editorOverviewRuler.deletedForeground": "#FF6347",
 
-    "editorRuler.foreground": "#3e4148",
+    "editorRuler.foreground": "#3b414f",                                      // Guide lines (Ruler)
+
     "editorSuggestWidget.background": "#20232A",
     "editorSuggestWidget.border": "#A9ABAE10",
     "editorSuggestWidget.foreground": "#696B71",
@@ -300,6 +301,7 @@
     "sideBarSectionHeader.border": "#282c34", // Done
     "sideBarSectionHeader.foreground": "#9299a8", // Done
     "sideBarTitle.foreground": "#9299a8", // Done
+    "tree.indentGuidesStroke": "#454c5c",
 
 
     //-- Status bar
@@ -378,9 +380,8 @@
     "titleBar.inactiveBackground": "#20232A", // Done
     "titleBar.inactiveForeground": "#454c5c", // Done
 
-    "tree.indentGuidesStroke": "#454c5c",
     "widget.shadow": "#20232A30",
-    
+
 
     //-- Plugins
 
