@@ -197,7 +197,8 @@
     "list.hoverForeground": "#bfc0c2", // Done
     "list.inactiveSelectionBackground": "#323742bf",
     "list.inactiveSelectionForeground": "#94969a",
-    "list.warningForeground": "#d0b243", // check
+    "list.warningForeground": "#d8bb52", // Slightly toned down
+    "list.errorForeground": "#e1645f", // Slightly toned down
     "list.filterMatchBackground": "#454c5c", // Done
     "listFilterWidget.background": "#20232a", // Done
     "listFilterWidget.noMatchesOutline": "#c0392b", // Done
