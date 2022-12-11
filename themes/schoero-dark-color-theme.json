@@ -371,6 +371,12 @@
 
     "tree.indentGuidesStroke": "#454c5c",
     "widget.shadow": "#20232A30",
+    
+
+    //-- Plugins
+
+    "editorCodeLens.foreground": "#636d83",
+
   },
   "tokenColors": [
     {
