@@ -2,7 +2,7 @@
     "name": "schoero-dark",
     "displayName": "schoero-dark",
     "description": "A personal dark theme",
-    "version": "0.0.29",
+    "version": "0.0.30",
     "engines": {
         "vscode": "^1.65.0"
     },
