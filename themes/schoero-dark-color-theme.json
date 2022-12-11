@@ -83,7 +83,7 @@
     "editor.foreground": "#b1b6c1",                                           // font color
     "editor.lineHighlightBackground": "#323742",                              // Active line background
     "editor.selectionBackground": "#324164",
-    "editor.selectionHighlightBackground": "#323742", // fine tune
+    "editor.selectionHighlightBackground": "#324164bb", // fine tune
     "editor.selectionHighlightBorder": "#323742", // fine tune
     "editorBracketMatch.background": "#282c34", // Done
     "editorBracketMatch.border": "#828a9c", // Done
