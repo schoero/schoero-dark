@@ -85,8 +85,11 @@
     "editor.selectionBackground": "#324164",
     "editor.selectionHighlightBackground": "#324164bb", // fine tune
     "editor.selectionHighlightBorder": "#323742", // fine tune
+    "editorGhostText.foreground": "#636d83",                                  // Copilot text        
     "editorBracketMatch.background": "#282c34", // Done
     "editorBracketMatch.border": "#828a9c", // Done
+    "editor.wordHighlightBackground": "#636d8344",
+    "editor.wordHighlightStrongBackground": "#9299a844",
     "editorCursor.foreground": "#528bff",
     "editorCursor.background": "#d0d3da",
     "editorError.foreground": "#d04843",
