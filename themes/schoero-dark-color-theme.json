@@ -459,7 +459,18 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#FF5370"
+        "foreground": "#d04843",
+        "fontStyle": "italic"
+      }
+    },
+    {
+      "name": "Deprecated",
+      "scope": [
+        "deprecated",
+        "invalid.deprecated"
+      ],
+      "settings": {
+        "fontStyle": "strikethrough"
       }
     },
     {
@@ -492,8 +503,6 @@
         //-- Markdown
 
         "markup.heading",                                                       // Markdown Markup heading
-        "punctuation.definition.heading",                                       // Markdown Markup heading punctuation
-        "punctuation.definition.list.begin.markdown",                           // Markdown Markup list
         "markup.deleted.diff",                                                  // Markdown Markup deleted
         "punctuation.definition.deleted.diff",                                  // Markdown Markup deleted punctuation
 
@@ -501,6 +510,7 @@
         //-- CSS
         
         "entity.name.tag.css",                                                  // CSS html tag
+        "meta.property-name.css support.type",                                  // CSS property name
         "meta.function.variable.css",                                           // CSS variable
         "variable.argument.css",                                                // CSS variable argument
         "variable.css",                                                         // CSS variable
@@ -646,6 +656,17 @@
         
         "markup.underline.link.markdown",                                       // Markdown link
         "punctuation.definition.metadata.markdown",                             // Markdown punctuation
+        "punctuation.definition.heading.markdown",                              // Markdown heading punctuation
+        "punctuation.definition.list.begin.markdown",                           // Markdown list punctuation
+        "punctuation.definition.list.end.markdown",                             // Markdown list punctuation
+        "punctuation.definition.quote.begin.markdown",                          // Markdown quote punctuation
+        "punctuation.definition.quote.end.markdown",                            // Markdown quote punctuation
+        "punctuation.definition.link.title.begin.markdown",                     // Markdown link title punctuation
+        "punctuation.definition.link.title.end.markdown",                       // Markdown link title punctuation
+        "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
+        "punctuation.definition.italic.markdown",                               // Markdown italic punctuation
+        "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
+        "meta.separator.markdown",                                              // Markdown separator
 
 
         //-- Shell
@@ -772,15 +793,10 @@
 
         //-- Markdown
 
-        "punctuation.definition.link.title.begin.markdown",                     // Markdown Link title begin
-        "punctuation.definition.link.title.end.markdown",                       // Markdown Link title end
-        "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
-        "markup.bold.markdown",                                                 // Markdown bold
-        "punctuation.definition.italic.markdown",                               // Markdown italic punctuation
-        "markup.italic.markdown",                                               // Markdown italic
-        "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
-        "markup.strikethrough.markdown",                                        // Markdown strikethrough
         "string.other.link.title.markdown",                                     // Markdown link title
+        "markup.italic.markdown",                                               // Markdown italic
+        "markup.bold.markdown",                                                 // Markdown bold
+        "markup.strikethrough.markdown",                                        // Markdown strikethrough
 
 
         //-- CSS
@@ -790,8 +806,29 @@
         "keyword.other.unit.rem.css",                                           // CSS rem unit
         "keyword.other.unit.vh.css",                                            // CSS vh unit
         "keyword.other.unit.vw.css",                                            // CSS vw unit
+        "keyword.other.unit.vi.css",                                            // CSS vi unit
+        "keyword.other.unit.vb.css",                                            // CSS vb unit
         "keyword.other.unit.vmin.css",                                          // CSS vmin unit
         "keyword.other.unit.vmax.css",                                          // CSS vmax unit
+        "keyword.other.unit.lvw.css",                                           // CSS lvw unit
+        "keyword.other.unit.lvh.css",                                           // CSS lvh unit
+        "keyword.other.unit.lvi.css",                                           // CSS lvi unit
+        "keyword.other.unit.lvb.css",                                           // CSS lvb unit
+        "keyword.other.unit.lvmin.css",                                         // CSS lvmin unit
+        "keyword.other.unit.lvmax.css",                                         // CSS lvmax unit
+        "keyword.other.unit.svw.css",                                           // CSS svw unit
+        "keyword.other.unit.svh.css",                                           // CSS svh unit
+        "keyword.other.unit.svi.css",                                           // CSS svi unit
+        "keyword.other.unit.svb.css",                                           // CSS svb unit
+        "keyword.other.unit.svmin.css",                                         // CSS svmin unit
+        "keyword.other.unit.svmax.css",                                         // CSS svmax unit
+        "keyword.other.unit.dvw.css",                                           // CSS dvw unit
+        "keyword.other.unit.dvh.css",                                           // CSS dvh unit
+        "keyword.other.unit.dvi.css",                                           // CSS dvi unit
+        "keyword.other.unit.dvb.css",                                           // CSS dvb unit
+        "keyword.other.unit.dvmin.css",                                         // CSS dvmin unit
+        "keyword.other.unit.dvmax.css",                                         // CSS dvmax unit
+        "keyword.other.unit.fr.css",                                            // CSS fr unit
         "keyword.other.unit.ch.css",                                            // CSS ch unit
         "keyword.other.unit.ex.css",                                            // CSS ex unit
         "keyword.other.unit.in.css",                                            // CSS in unit
