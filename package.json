@@ -22,7 +22,7 @@
     },
     "repository": {
         "type": "git",
-        "url": "git+https://github.com/schoero/schoero-dark.git"
+        "url": "https://github.com/schoero/schoero-dark.git"
     },
     "keywords": [
         "atom",
