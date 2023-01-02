@@ -75,7 +75,9 @@
 
     //-- Editor
 
-    "editor.background": "#282C34", // Done
+    "editor.background": "#282C34",                                           // Editor background
+    "editorGroup.emptyBackground": "#282C34",                                 // Empty editor background
+    
     "editor.findMatchBackground": "#454c5c",
     "editor.findMatchBorder": "#454c5c",
     "editor.findMatchHighlightBackground": "#323742",
@@ -97,7 +99,11 @@
     "editorGroup.border": "#454c5c",   
     "editorInfo.foreground": "#4398d0",
     "editorHint.foreground": "#4398d0",
-    "editorGroupHeader.tabsBackground": "#20232A", // done
+
+    "editorGroupHeader.tabsBackground": "#20232A",                            // Tab bar background
+    "editorGroupHeader.tabsBorder": "#282C34",                                // Tab bar border bottom
+    "editorGroupHeader.border": "#282C34",                                    // Border bottom of the breadcrumb
+    "editorGroupHeader.noTabsBackground": "#282C34",                          // Tab bar background when tabs are disabled
     
 
     //-- Modification marks besides the line numbers
@@ -172,7 +178,7 @@
     "inputValidation.errorBorder": "#c0392b",
     "inputValidation.infoBorder": "#2980b9",
     "inputValidation.warningBorder": "#e67e22",
-    "inputValidation.errorBackground": "#601d16", // DONE
+    "inputValidation.errorBackground": "#601d16", // Done
     "inputValidation.warningBackground": "#733f11",
     "inputValidation.infoBackground": "#15405d",
 
@@ -336,7 +342,7 @@
     "tab.activeBackground": "#282C34", // Done
     "tab.activeBorder": "#282C34", // Done
     "tab.activeForeground": "#d0d3da", // Done
-    "tab.border": "#181a1f", // Done
+    "tab.border": "#282c34", // Done
     "tab.hoverForeground": "#d0d3da", // Done
     "tab.inactiveBackground": "#20232A",
     "tab.inactiveForeground": "#737c8f",
