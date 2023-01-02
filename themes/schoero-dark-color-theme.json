@@ -470,6 +470,8 @@
         "meta.object.member",                                                   // Object member
         "variable.other.object.property",                                       // Object property
         "variable.other.property",                                              // Class property
+        "meta.object-literal.key string",                                       // Object literal key
+        "meta.object-literal.key punctuation.definition.string",                // Object literal key quotes
         "variable.language.super",                                              // Super
         "variable.language.this",                                               // this keyword
         "meta.import",                                                          // Import
@@ -519,7 +521,10 @@
 
         "variable.other.normal.shell",                                          // Shell variable
         "variable.other.special.shell",                                         // Shell special variable
-        
+        "punctuation.section.bracket.curly.variable.begin.shell",               // Shell variable curly braces
+        "punctuation.section.bracket.curly.variable.end.shell",                 // Shell variable curly braces
+        "variable.parameter.positional.shell",                                  // Shell positional parameter
+
       ],
       "settings": {
         "foreground": "#E06C75"
@@ -539,6 +544,8 @@
         //-- Shell
 
         "punctuation.definition.variable.shell",                                // Shell variable
+        "punctuation.definition.evaluation.parens.begin.shell",                 // Shell evaluation
+        "punctuation.definition.evaluation.parens.end.shell",                   // Shell evaluation
 
 
         //-- Markdown
@@ -679,6 +686,13 @@
         //-- ini
 
         "entity.name.section.group-title.ini",                                  // ini section group title
+
+
+        //-- Shell
+
+        "meta.function.shell",                                                  // Shell function
+        "meta.command.shell",                                                   // Shell function call
+
       ],
       "settings": {
         "foreground": "#61AFEF"
@@ -687,6 +701,7 @@
     {
       "name": "Turquoise",
       "scope": [
+        "support.type",                                                         // type
         "support.type.primitive",                                               // primitive type like string | number
         "support.type.builtin",                                                 // builtin type like undefined
         "support.class",                                                        // class
@@ -730,6 +745,7 @@
 
         "support.function.builtin.shell",                                       // Shell built-in functions
         "punctuation.section.array.shell",                                      // Shell array punctuation
+        "punctuation.separator.statement.and.shell",                            // Shell and separator
 
 
         //-- CSS
@@ -792,6 +808,11 @@
         "keyword.other.unit.grad.css",                                          // CSS grad unit
         "keyword.other.unit.Hz.css",                                            // CSS Hz unit
         "keyword.other.unit.kHz.css",                                           // CSS kHz unit
+
+
+        //-- Shell
+
+        "constant.other.option.dash.shell",                                     // Shell option dash
 
       ],
       "settings": {
