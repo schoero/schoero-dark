@@ -517,6 +517,7 @@
         
         "entity.name.tag.css",                                                  // CSS html tag
         "meta.property-name.css support.type",                                  // CSS property name
+        "support.type.property-name.css",                                       // CSS property name
         "meta.function.variable.css",                                           // CSS variable
         "variable.argument.css",                                                // CSS variable argument
         "variable.css",                                                         // CSS variable
