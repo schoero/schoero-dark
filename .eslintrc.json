@@ -1,0 +1,12 @@
+{
+  "extends": "@schoero",
+  "overrides": [
+    {
+      "files": ["themes/*.json"],
+      "parser": "jsonc-eslint-parser",
+      "rules": {
+        "jsonc/sort-keys": "off"
+      }
+    }
+  ]
+}

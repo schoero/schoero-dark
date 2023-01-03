@@ -38,14 +38,14 @@
     "breadcrumb.focusForeground": "#9299a8",                                  // breadcrumb hover
     "breadcrumb.foreground": "#737c8f",                                       // breadcrumb default
     "breadcrumbPicker.background": "#1c1f24",
-    
+
     "button.background": "#3b414f",
     "button.foreground": "#e0e2e6",
     "button.hoverBackground": "#454c5c",
     "button.secondaryBackground": "#323742",
     "contrastBorder": "#282c34",                                              // border around badge, buttons, below breadcrumbs
-    
-    
+
+
     //-- Debugger
 
     "debugToolBar.background": "#282c34", // Done
@@ -77,7 +77,7 @@
 
     "editor.background": "#282C34",                                           // Editor background
     "editorGroup.emptyBackground": "#282C34",                                 // Empty editor background
-    
+
     "editor.findMatchBackground": "#454c5c",
     "editor.findMatchBorder": "#454c5c",
     "editor.findMatchHighlightBackground": "#323742",
@@ -87,7 +87,7 @@
     "editor.selectionBackground": "#324164",
     "editor.selectionHighlightBackground": "#324164bb", // fine tune
     "editor.selectionHighlightBorder": "#323742", // fine tune
-    "editorGhostText.foreground": "#636d83",                                  // Copilot text        
+    "editorGhostText.foreground": "#636d83",                                  // Copilot text
     "editorBracketMatch.background": "#282c34", // Done
     "editorBracketMatch.border": "#828a9c", // Done
     "editor.wordHighlightBackground": "#636d8344",
@@ -96,7 +96,7 @@
     "editorCursor.background": "#d0d3da",
     "editorError.foreground": "#d04843",
     "editorWarning.foreground": "#d0b243",
-    "editorGroup.border": "#454c5c",   
+    "editorGroup.border": "#454c5c",
     "editorInfo.foreground": "#4398d0",
     "editorHint.foreground": "#4398d0",
 
@@ -104,7 +104,7 @@
     "editorGroupHeader.tabsBorder": "#282C34",                                // Tab bar border bottom
     "editorGroupHeader.border": "#282C34",                                    // Border bottom of the breadcrumb
     "editorGroupHeader.noTabsBackground": "#282C34",                          // Tab bar background when tabs are disabled
-    
+
 
     //-- Modification marks besides the line numbers
 
@@ -118,7 +118,7 @@
     "editorIndentGuide.background": "#3e4148",
     "editorLineNumber.activeForeground": "#a1a7b5",
     "editorLineNumber.foreground": "#636d83",
-    "editorLink.activeForeground": "#3498dbbf",                               // link color 
+    "editorLink.activeForeground": "#3498dbbf",                               // link color
     "editorMarkerNavigation.background": "#20232a",                           // inline full width widget (view problem)
 
 
@@ -133,7 +133,7 @@
     "editorOverviewRuler.findMatchForeground": "#324164",
     "editorOverviewRuler.infoForeground": "#4398d0",
     "editorOverviewRuler.modifiedForeground": "#438cd0",
-    "editorOverviewRuler.warningForeground": "#d0b243",  
+    "editorOverviewRuler.warningForeground": "#d0b243",
     "editorOverviewRuler.addedForeground": "#43d08a",
     "editorOverviewRuler.deletedForeground": "#FF6347",
 
@@ -235,7 +235,7 @@
     "minimapSlider.activeBackground": "#a1a7b54d",
     "minimapSlider.background": "#a1a7b526",
     "minimapSlider.hoverBackground": "#a1a7b533",
-    
+
 
     //-- Modification marks on the minimap
 
@@ -394,7 +394,7 @@
 
     //-- Plugins
 
-    "editorCodeLens.foreground": "#4f5769",
+    "editorCodeLens.foreground": "#4f5769"
 
   },
   "tokenColors": [
@@ -402,7 +402,7 @@
       "name": "Dark gray - comment",
       "scope": [
         "punctuation.definition.comment",                                       // Comment punctuation
-        "comment",                                                              // Comment
+        "comment"                                                              // Comment
       ],
       "settings": {
         "fontStyle": "italic",
@@ -431,7 +431,7 @@
 
         //-- CSS
 
-        "support.constant.property-value.css",                                  // CSS property values
+        "support.constant.property-value.css"                                  // CSS property values
 
       ],
       "settings": {
@@ -452,7 +452,7 @@
 
         //-- Shell
 
-        "meta.scope.subshell.shell",                                            // Subshell
+        "meta.scope.subshell.shell"                                            // Subshell
       ],
       "settings": {
         "foreground": "#828a9c"
@@ -514,7 +514,7 @@
 
 
         //-- CSS
-        
+
         "entity.name.tag.css",                                                  // CSS html tag
         "meta.property-name.css support.type",                                  // CSS property name
         "support.type.property-name.css",                                       // CSS property name
@@ -527,7 +527,7 @@
 
         "variable.other.php",                                                   // PHP variable
         "punctuation.definition.variable.php",                                  // PHP variable punctuation
-        
+
 
         //-- YAML
 
@@ -540,7 +540,7 @@
         "variable.other.special.shell",                                         // Shell special variable
         "punctuation.section.bracket.curly.variable.begin.shell",               // Shell variable curly braces
         "punctuation.section.bracket.curly.variable.end.shell",                 // Shell variable curly braces
-        "variable.parameter.positional.shell",                                  // Shell positional parameter
+        "variable.parameter.positional.shell"                                  // Shell positional parameter
 
       ],
       "settings": {
@@ -573,7 +573,7 @@
 
       ],
       "settings": {
-        "foreground": "#b3565e",
+        "foreground": "#b3565e"
       }
     },
     {
@@ -603,7 +603,7 @@
 
         "support.type.vendored.property-name.css",                              // CSS vendored property name
         "support.type.vendored.property-value.css",                             // CSS vendored property value
-        "support.constant.vendored.property-value",                             // CSS vendored property value
+        "support.constant.vendored.property-value"                             // CSS vendored property value
 
       ],
       "settings": {
@@ -618,7 +618,7 @@
         //-- Markdown
 
         "markup.bold.markdown"                                                  // Markdown bold
-        
+
       ],
       "settings": {
         "fontStyle": "bold"
@@ -633,7 +633,7 @@
 
         "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
         "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
-        "punctuation.definition.italic.markdown",                               // Markdown italic punctuation
+        "punctuation.definition.italic.markdown"                               // Markdown italic punctuation
       ],
       "settings": {
         "fontStyle": ""
@@ -657,10 +657,10 @@
         "keyword.operator.expression.instanceof",                               // instanceof keyword
         "keyword.operator.expression.delete",                                   // delete keyword
         "keyword.operator.expression.void",                                     // void keyword
-        
-        
+
+
         //-- Markdown
-        
+
         "markup.underline.link.markdown",                                       // Markdown link
         "punctuation.definition.metadata.markdown",                             // Markdown punctuation
         "punctuation.definition.heading.markdown",                              // Markdown heading punctuation
@@ -692,7 +692,7 @@
 
         //-- CSS
 
-        "keyword.other.important.css",                                          // CSS important
+        "keyword.other.important.css"                                          // CSS important
 
       ],
       "settings": {
@@ -719,7 +719,7 @@
         //-- Shell
 
         "meta.function.shell",                                                  // Shell function
-        "meta.command.shell",                                                   // Shell function call
+        "meta.command.shell"                                                   // Shell function call
 
       ],
       "settings": {
@@ -780,7 +780,7 @@
 
         "meta.function.variable.css",                                           // CSS variable function
         "meta.function.misc.css",                                               // CSS misc functions
-        "meta.function.timing-function.css",                                    // CSS timing function
+        "meta.function.timing-function.css"                                    // CSS timing function
 
       ],
       "settings": {
@@ -856,7 +856,7 @@
 
         //-- Shell
 
-        "constant.other.option.dash.shell",                                     // Shell option dash
+        "constant.other.option.dash.shell"                                     // Shell option dash
 
       ],
       "settings": {
@@ -868,7 +868,7 @@
       "scope": [
         "meta.type.annotation",                                                 // Type annotation
         "meta.interface",                                                       // interfaces
-        "entity.name.type",                                                     // Type name
+        "entity.name.type"                                                     // Type name
       ],
       "settings": {
         "foreground": "#E5C07B"
