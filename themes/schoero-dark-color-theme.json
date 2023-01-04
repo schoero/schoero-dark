@@ -402,7 +402,7 @@
       "name": "Dark gray - comment",
       "scope": [
         "punctuation.definition.comment",                                       // Comment punctuation
-        "comment"                                                              // Comment
+        "comment"                                                               // Comment
       ],
       "settings": {
         "fontStyle": "italic",
@@ -431,7 +431,12 @@
 
         //-- CSS
 
-        "support.constant.property-value.css"                                  // CSS property values
+        "support.constant.property-value.css",                                  // CSS property values
+
+
+        //-- JSX
+
+        "meta.jsx.children"                                                     // JSX children
 
       ],
       "settings": {
@@ -452,7 +457,7 @@
 
         //-- Shell
 
-        "meta.scope.subshell.shell"                                            // Subshell
+        "meta.scope.subshell.shell"                                             // Subshell
       ],
       "settings": {
         "foreground": "#828a9c"
@@ -540,7 +545,7 @@
         "variable.other.special.shell",                                         // Shell special variable
         "punctuation.section.bracket.curly.variable.begin.shell",               // Shell variable curly braces
         "punctuation.section.bracket.curly.variable.end.shell",                 // Shell variable curly braces
-        "variable.parameter.positional.shell"                                  // Shell positional parameter
+        "variable.parameter.positional.shell"                                   // Shell positional parameter
 
       ],
       "settings": {
@@ -603,7 +608,7 @@
 
         "support.type.vendored.property-name.css",                              // CSS vendored property name
         "support.type.vendored.property-value.css",                             // CSS vendored property value
-        "support.constant.vendored.property-value"                             // CSS vendored property value
+        "support.constant.vendored.property-value"                              // CSS vendored property value
 
       ],
       "settings": {
@@ -633,7 +638,7 @@
 
         "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
         "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
-        "punctuation.definition.italic.markdown"                               // Markdown italic punctuation
+        "punctuation.definition.italic.markdown"                                // Markdown italic punctuation
       ],
       "settings": {
         "fontStyle": ""
@@ -692,7 +697,7 @@
 
         //-- CSS
 
-        "keyword.other.important.css"                                          // CSS important
+        "keyword.other.important.css"                                           // CSS important
 
       ],
       "settings": {
@@ -719,7 +724,7 @@
         //-- Shell
 
         "meta.function.shell",                                                  // Shell function
-        "meta.command.shell"                                                   // Shell function call
+        "meta.command.shell"                                                    // Shell function call
 
       ],
       "settings": {
@@ -780,7 +785,7 @@
 
         "meta.function.variable.css",                                           // CSS variable function
         "meta.function.misc.css",                                               // CSS misc functions
-        "meta.function.timing-function.css"                                    // CSS timing function
+        "meta.function.timing-function.css"                                     // CSS timing function
 
       ],
       "settings": {
@@ -856,7 +861,7 @@
 
         //-- Shell
 
-        "constant.other.option.dash.shell"                                     // Shell option dash
+        "constant.other.option.dash.shell"                                      // Shell option dash
 
       ],
       "settings": {
@@ -868,7 +873,7 @@
       "scope": [
         "meta.type.annotation",                                                 // Type annotation
         "meta.interface",                                                       // interfaces
-        "entity.name.type"                                                     // Type name
+        "entity.name.type"                                                      // Type name
       ],
       "settings": {
         "foreground": "#E5C07B"
