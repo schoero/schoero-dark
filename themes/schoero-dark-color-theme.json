@@ -473,7 +473,7 @@
       ],
       "settings": {
         "foreground": "#d04843",
-        "fontStyle": "italic"
+        "fontStyle": "strikethrough"
       }
     },
     {
