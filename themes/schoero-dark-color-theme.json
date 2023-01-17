@@ -53,11 +53,13 @@
 
     //-- Diff Editor
 
-    "diffEditor.insertedTextBackground": "#98C37940",
-    "diffEditor.insertedLineBackground": "#98C37905",
-    "diffEditor.removedTextBackground": "#E06C7540",
-    "diffEditor.removedLineBackground": "#E06C7505",
-    "diffEditor.diagonalFill": "#53565d", // Done
+    "diffEditor.insertedTextBackground": "#98C37920",
+    "diffEditor.insertedLineBackground": "#98C37920",
+    "diffEditorGutter.insertedLineBackground": "#98C37920",
+    "diffEditor.removedTextBackground": "#E06C7520",
+    "diffEditor.removedLineBackground": "#E06C7520",
+    "diffEditorGutter.removedLineBackground": "#E06C7520",
+    "diffEditor.diagonalFill": "#E06C7540", // Done
 
 
     //-- ErrorLens
