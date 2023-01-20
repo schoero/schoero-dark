@@ -472,8 +472,7 @@
         "invalid.illegal"
       ],
       "settings": {
-        "foreground": "#d04843",
-        "fontStyle": "strikethrough"
+        "foreground": "#d04843"
       }
     },
     {
