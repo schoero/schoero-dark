@@ -48,6 +48,30 @@
 
     //-- Debugger
 
+    "debugIcon.restartForeground": "#98C379",
+    "debugIcon.stopForeground": "#E06C75",
+    "debugIcon.continueForeground": "#61AFEF",
+    "debugIcon.pauseForeground": "#61AFEF",
+    "debugIcon.stepOverForeground": "#61AFEF",
+    "debugIcon.stepIntoForeground": "#61AFEF",
+    "debugIcon.stepOutForeground": "#61AFEF",
+    "debugIcon.disconnectForeground": "#E06C75",
+    "debugIcon.breakpointForeground": "#c0392b",
+    "debugIcon.breakpointDisabledForeground": "#a1a7b5",
+    "debugIcon.breakpointUnverifiedForeground": "#a1a7b5",
+    "debugIcon.breakpointCurrentStackframeForeground": "#d0b243",
+    "debugIcon.breakpointStackframeForeground": "#d0b243",
+    "debugIcon.startForeground": "#98C379",
+    "debugIcon.stepBackForeground": "#61AFEF",
+    "debugView.stateLabelBackground": "#3b414f",
+    "debugView.stateLabelForeground": "#c1c5cd",
+    "debugTokenExpression.string": "#98C379",
+    "debugTokenExpression.number": "#D19A66",
+    "debugTokenExpression.boolean": "#56B6C2",
+    "debugTokenExpression.value": "#b1b6c1",
+    "debugTokenExpression.name": "#E06C75",
+    "debugTokenExpression.error": "#d04843",
+    "editor.stackFrameHighlightBackground": "#d0b24328",
     "debugToolBar.background": "#282c34", // Done
 
 
