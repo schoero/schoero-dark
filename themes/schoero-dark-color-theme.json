@@ -106,8 +106,8 @@
 
     "editor.findMatchBackground": "#454c5c",
     "editor.findMatchBorder": "#454c5c",
-    "editor.findMatchHighlightBackground": "#323742",
-    "editor.findMatchHighlightBorder": "#323742",
+    "editor.findMatchHighlightBackground": "#454c5c88",
+    "editor.findMatchHighlightBorder": "#454c5c88",
     "editor.foreground": "#b1b6c1",                                           // font color
     "editor.lineHighlightBackground": "#323742",                              // Active line background
     "editor.selectionBackground": "#324164",
@@ -528,6 +528,7 @@
         "support.type.property-name.json",                                      // JSON property name
         "support.type.property-name.json punctuation",                          // JSON property quotes
         "entity.name.type.module",                                              // Imported module
+        "variable.other.object",
         "keyword.operator.decrement",                                           // Decrement: --
 
 
