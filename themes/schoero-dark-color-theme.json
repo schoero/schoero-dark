@@ -528,7 +528,6 @@
         "support.type.property-name.json",                                      // JSON property name
         "support.type.property-name.json punctuation",                          // JSON property quotes
         "entity.name.type.module",                                              // Imported module
-        "variable.other.object",
         "keyword.operator.decrement",                                           // Decrement: --
 
 
