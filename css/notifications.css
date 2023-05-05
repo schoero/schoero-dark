@@ -1,0 +1,8 @@
+.monaco-workbench .notifications-list-container .notification-list-item {
+  border-radius: 6px;
+}
+
+.monaco-workbench .notifications-list-container .notification-list-item .notification-list-item-buttons-container .monaco-text-button {
+  border-radius: 6px;
+  padding: 6px 10px;
+}

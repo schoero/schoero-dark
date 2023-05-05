@@ -1,0 +1,5 @@
+.monaco-list-row {
+  border-radius: 4px;
+  width: calc(100% - 8px);
+  margin: 0 4px;
+}

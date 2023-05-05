@@ -1,0 +1,39 @@
+/* Remove borders */
+.monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.wrapping .tabs-container > .tab {
+  border: 0!important;
+}
+
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title>.tabs-and-actions-container.tabs-border-bottom::after {
+  background-color: transparent;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-bottom>.tab-border-bottom-container {
+  background-color: transparent;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit.sticky-shrink,
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-shrink.sticky-shrink {
+  border: 0!important;
+}
+
+/* Tab */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab {
+  border-radius: 6px;
+}
+
+/* TabList */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container {
+  padding: 6px;
+  gap: 6px;
+}
+
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.sizing-fit {
+  width: 168px;
+}
+
+/* Editor actions (right corner) */
+.monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
+  outline: none;
+}

@@ -1,0 +1,24 @@
+/* Sidebar actions */
+.monaco-workbench .activitybar>.content :not(.monaco-menu)>.monaco-action-bar .action-item {
+  border-radius: 6px;
+  overflow: hidden;
+}
+
+/* Basepanel action bar */
+.monaco-workbench .part.basepanel>.title>.panel-switcher-container>.monaco-action-bar .actions-container {
+  gap: 6px;
+}
+
+/* Action bar item */
+.monaco-workbench .part.basepanel>.composite.title>.panel-switcher-container>.monaco-action-bar .action-item.checked {
+  background-color: rgb(40, 44, 52);
+  border-radius: 6px;
+  margin: 6px 0;
+  height: calc(100% - 12px);
+}
+
+/* Remove active item underline */
+.monaco-workbench .part.basepanel>.title>.panel-switcher-container>.monaco-action-bar .action-item.checked.clicked:focus .active-item-indicator:before, 
+.monaco-workbench .part.basepanel>.title>.panel-switcher-container>.monaco-action-bar .action-item.checked:not(:focus) .active-item-indicator:before {
+  border: none;
+}
