@@ -113,6 +113,7 @@
     "editor.selectionBackground": "#324164",
     "editor.selectionHighlightBackground": "#324164bb", // fine tune
     "editor.selectionHighlightBorder": "#323742", // fine tune
+    "editorCodeLens.foreground": "#4f5769",
     "editorGhostText.foreground": "#636d83",                                  // Copilot text
     "editorBracketMatch.background": "#282c34", // Done
     "editorBracketMatch.border": "#828a9c", // Done
@@ -420,7 +421,7 @@
 
     //-- Plugins
 
-    "editorCodeLens.foreground": "#4f5769"
+    "gitlens.trailingLineForegroundColor": "#636d83"                                  // Copilot text
 
   },
   "tokenColors": [
@@ -512,7 +513,6 @@
     {
       "name": "Red",
       "scope": [
-        "keyword",                                                              // Optional question mark, equals
         "meta.method.declaration",                                              // Method declaration
         "meta.object.member",                                                   // Object member
         "variable.other.object.property",                                       // Object property
@@ -548,9 +548,13 @@
         "entity.name.tag.css",                                                  // CSS html tag
         "meta.property-name.css support.type",                                  // CSS property name
         "support.type.property-name.css",                                       // CSS property name
-        "meta.function.variable.css",                                           // CSS variable
         "variable.argument.css",                                                // CSS variable argument
         "variable.css",                                                         // CSS variable
+
+
+        //-- Tailwind
+
+        "variable.parameter.screen.tailwind",                                   // Tailwind screen parameter
 
 
         //-- PHP
@@ -810,7 +814,12 @@
 
         "meta.function.variable.css",                                           // CSS variable function
         "meta.function.misc.css",                                               // CSS misc functions
-        "meta.function.timing-function.css"                                     // CSS timing function
+        "meta.function.timing-function.css",                                    // CSS timing function
+
+
+        //-- Tailwind
+
+        "support.function.tailwind"                                             // Tailwind function
 
       ],
       "settings": {
@@ -826,6 +835,12 @@
         "entity.other.attribute-name",                                          // HTML attribute name
         "constant.numeric.decimal",                                             // Decimal numbers
         "constant.language.undefined",                                          // undefined keyword
+
+
+        //-- TypeScript/JavaScript
+
+        "keyword.operator.definiteassignment.ts",                               // possiblyUndefined! <
+        "punctuation.accessor.optional",                                        // Optional chaining question mark
 
 
         //-- Markdown
