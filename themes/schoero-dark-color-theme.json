@@ -819,7 +819,8 @@
 
         //-- Tailwind
 
-        "support.function.tailwind"                                             // Tailwind function
+        "support.function.theme.tailwind",                                      // Tailwind function
+        "support.function.screen.tailwind"                                      // Tailwind function
 
       ],
       "settings": {
