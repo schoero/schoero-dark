@@ -529,6 +529,7 @@
         "support.type.property-name.json punctuation",                          // JSON property quotes
         "entity.name.type.module",                                              // Imported module
         "keyword.operator.decrement",                                           // Decrement: --
+        "keyword.other.debugger.ts",                                            // Debugger
 
 
         //-- HTML
