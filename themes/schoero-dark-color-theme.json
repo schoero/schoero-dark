@@ -133,6 +133,9 @@
     "editorGroupHeader.noTabsBackground": "#282C34",                          // Tab bar background when tabs are disabled
 
 
+    "editor.linkedEditingBackground": "#324164",                              // Linked editing background
+
+
     //-- Modification marks besides the line numbers
 
     "editorGutter.modifiedBackground": "#438cd0",
