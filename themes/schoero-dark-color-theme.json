@@ -73,6 +73,10 @@
     "debugTokenExpression.error": "#d04843",
     "editor.stackFrameHighlightBackground": "#d0b24328",
     "debugToolBar.background": "#282c34", // Done
+    "debugConsole.sourceForeground": "#d0d3da",
+    "debugConsole.infoForeground": "#b1b6c1",
+    "debugConsole.errorForeground": "#d04843",
+    "debugConsole.warningForeground": "#d0b243",
 
 
     //-- Diff Editor
