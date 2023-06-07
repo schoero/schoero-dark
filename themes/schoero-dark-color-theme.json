@@ -403,6 +403,10 @@
     "terminal.ansiYellow": "#D19A66",
     "terminalCursor.background": "#1E2127",
     "terminalCursor.foreground": "#528bff",
+    "terminal.foreground": "#b1b6c1",
+    "terminalCommandDecoration.successBackground": "#43d08a",
+    "terminalCommandDecoration.errorBackground": "#d04843",
+    "terminalCommandDecoration.defaultBackground": "#4398d0",
 
 
     //-- Text links
