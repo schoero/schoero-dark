@@ -4,9 +4,7 @@
   "type": "dark",
   "colors": {
 
-
-    //-- Activity bar
-
+    // Activity bar
     "activityBar.background": "#20232A",
     "activityBar.border": "#282c34",                                          // sidebar border right
     "activityBar.activeBorder": "#323742",
@@ -18,21 +16,15 @@
     "activityBarBadge.background": "#528bff",
     "activityBarBadge.foreground": "#e0e2e6",
 
-
-    //-- Badge
-
+    // Badge
     "badge.background": "#454c5c",                                            // badge
     "badge.foreground": "#e0e2e6",
 
-
-    //-- Inlay hints
-
+    // Inlay hints
     "editorInlayHint.background": "#3b414f",
     "editorInlayHint.foreground": "#b1b6c1",
 
-
-    //-- Breadcrumbs
-
+    // Breadcrumbs
     "breadcrumb.activeSelectionForeground": "#b1b6c1",                        // breadcrumb active selection
     "breadcrumb.background": "#282C34",
     "breadcrumb.focusForeground": "#9299a8",                                  // breadcrumb hover
@@ -45,9 +37,7 @@
     "button.secondaryBackground": "#323742",
     "contrastBorder": "#282c34",                                              // border around badge, buttons, below breadcrumbs
 
-
-    //-- Debugger
-
+    // Debugger
     "debugIcon.restartForeground": "#98C379",
     "debugIcon.stopForeground": "#E06C75",
     "debugIcon.continueForeground": "#61AFEF",
@@ -78,9 +68,7 @@
     "debugConsole.errorForeground": "#d04843",
     "debugConsole.warningForeground": "#d0b243",
 
-
-    //-- Diff Editor
-
+    // Diff Editor
     "diffEditor.move.border": "#828a9c",
     "diffEditor.moveActive.border": "#61AFEF",
     "diffEditor.insertedTextBackground": "#98C37920",
@@ -91,22 +79,16 @@
     "diffEditorGutter.removedLineBackground": "#E06C7520",
     "diffEditor.diagonalFill": "#E06C7540", // Done
 
-
-    //-- ErrorLens
-
+    // ErrorLens
     "errorLens.infoForeground": "#4398d0",
     "errorLens.errorForeground": "#d04843",
     "errorLens.warningForeground": "#d0b243",
 
-
-    //-- Dropdown
-
+    // Dropdown
     "dropdown.background": "#20232A", // check
     "dropdown.border": "#3e4148", // Done
 
-
-    //-- Editor
-
+    // Editor
     "editor.background": "#282C34",                                           // Editor background
     "editorGroup.emptyBackground": "#282C34",                                 // Empty editor background
 
@@ -141,9 +123,7 @@
 
     "editor.linkedEditingBackground": "#324164",                              // Linked editing background
 
-
-    //-- Modification marks besides the line numbers
-
+    // Modification marks besides the line numbers
     "editorGutter.modifiedBackground": "#438cd0",
     "editorGutter.addedBackground": "#43D08A",
     "editorGutter.deletedBackground": "#FF6347",
@@ -157,14 +137,10 @@
     "editorLink.activeForeground": "#3498dbbf",                               // link color
     "editorMarkerNavigation.background": "#20232a",                           // inline full width widget (view problem)
 
-
-    //-- Scrollbar
-
+    // Scrollbar
     "editorOverviewRuler.border": "#282C34",                                  // Scrollbar border
 
-
-    //-- Scrollbar marks
-
+    // Scrollbar marks
     "editorOverviewRuler.errorForeground": "#d04843",
     "editorOverviewRuler.findMatchForeground": "#324164",
     "editorOverviewRuler.infoForeground": "#4398d0",
@@ -188,9 +164,7 @@
     "extensionButton.prominentHoverBackground": "#636d83",
     "focusBorder": "#636d83", // Done
 
-
-    //-- Git decorations
-
+    // Git decorations
     "gitDecoration.conflictingResourceForeground": "#E06C75",
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.ignoredResourceForeground": "#4f5769",
@@ -202,9 +176,7 @@
     "gitDecoration.renamedResourceForeground": "#61AFEF",
     "gitDecoration.stageModifiedResourceForeground": "#61AFEF",
 
-
-    //-- Input
-
+    // Input
     "input.background": "#282C34",
     "input.border": "#3b414f",
     "input.foreground": "#d0d3da",
@@ -218,22 +190,16 @@
     "inputValidation.warningBackground": "#733f11",
     "inputValidation.infoBackground": "#15405d",
 
-
-    //-- Key icon
-
+    // Key icon
     "keybindingLabel.background": "#323742", // Done
     "keybindingLabel.border": "#4f5769",
     "keybindingLabel.bottomBorder": "#4f5769",
     "keybindingLabel.foreground": "#e0e2e6",
 
-
-    //-- Quick input
-
+    // Quick input
     "quickInputTitle.background": "#20232a",                                  // Quick input title background (settings sync configure title)
 
-
-    //-- List
-
+    // List
     "list.activeSelectionBackground": "#323742", // Done
     "list.activeSelectionForeground": "#bfc0c2", // Done
     "list.focusBackground": "#323742",
@@ -250,9 +216,7 @@
     "listFilterWidget.noMatchesOutline": "#c0392b", // Done
     "listFilterWidget.outline": "#4f5769", // Done
 
-
-    //-- Menu
-
+    // Menu
     "menu.background": "#20232A",
     "menu.border": "#3e4148",
     "menu.foreground": "#b1b6c1",
@@ -264,40 +228,30 @@
     "menubar.selectionBorder": "#282C34",
     "menubar.selectionForeground": "#d0d3da",
 
-
-    //-- Minimap
-
+    // Minimap
     "minimap.background": "#282c34",
     "minimapSlider.activeBackground": "#a1a7b54d",
     "minimapSlider.background": "#a1a7b526",
     "minimapSlider.hoverBackground": "#a1a7b533",
 
-
-    //-- Modification marks on the minimap
-
+    // Modification marks on the minimap
     "minimapGutter.addedBackground": "#43d08a",
     "minimapGutter.deletedBackground": "#FF6347",
     "minimapGutter.modifiedBackground": "#438cd0",
 
-
-    //-- Notifications
-
+    // Notifications
     "notificationLink.foreground": "#3498db",
     "notifications.background": "#24282f",
     "notifications.foreground": "#a1a7b5",
 
-
-    //-- Panel
-
+    // Panel
     "panel.background": "#20232A",
     "panel.border": "#20232A60",
     "panelTitle.activeBorder": "#d0d3da", // Done
     "panelTitle.activeForeground": "#d0d3da", // Done
     "panelTitle.inactiveForeground": "#828a9c",                               // Terminal tabs
 
-
-    //-- PeekView
-
+    // PeekView
     "peekView.border": "#3b414f", // Done
     "peekViewEditor.background": "#20232a", // Done
     "peekViewEditor.matchHighlightBackground": "#324164",
@@ -311,9 +265,7 @@
     "pickerGroup.foreground": "#c1c5cd",                                      // f1 -> recently used label
     "progressBar.background": "#323742", // check
 
-
-    //-- Scrollbar
-
+    // Scrollbar
     "scrollbar.shadow": "#14161a", // Done
     "scrollbarSlider.activeBackground": "#a1a7b54d", // Done
     "scrollbarSlider.background": "#a1a7b526", // Done
@@ -321,9 +273,7 @@
 
     "selection.background": "#587da6", // Done
 
-
-    //-- Settings
-
+    // Settings
     "settings.checkboxBackground": "#20232A",
     "settings.checkboxForeground": "#696B71",
     "settings.dropdownBackground": "#20232A",
@@ -336,9 +286,7 @@
     "settings.textInputBackground": "#20232A", // Done
     "settings.textInputForeground": "#d0d3da", // Done
 
-
-    //-- Sidebar
-
+    // Sidebar
     "sideBar.background": "#20232A",
     "sideBar.border": "#282c34",
     "sideBar.foreground": "#9299a8", // Done
@@ -348,9 +296,7 @@
     "sideBarTitle.foreground": "#9299a8", // Done
     "tree.indentGuidesStroke": "#454c5c",
 
-
-    //-- Status bar
-
+    // Status bar
     "statusBar.background": "#20232A", // Done
     "statusBar.border": "#282c34", // Done
     "statusBar.debuggingBackground": "#323742", // Check
@@ -364,17 +310,13 @@
     "statusBarItem.prominentBackground": "#323742", // Done
     "statusBarItem.prominentForeground": "#a1a7b5",
 
-
-    //-- Merge editor
-
+    // Merge editor
     "mergeEditor.conflict.unhandledUnfocused.border": "#D19A66",
     "mergeEditor.conflict.unhandledFocused.border": "#D19A66",
     "mergeEditor.conflict.handledUnfocused.border": "#98C379",
     "mergeEditor.conflict.handledFocused.border": "#98C379",
 
-
-    //-- Tabs
-
+    // Tabs
     "tab.activeBackground": "#282C34", // Done
     "tab.activeBorder": "#282C34", // Done
     "tab.activeForeground": "#d0d3da", // Done
@@ -388,9 +330,7 @@
     "tab.unfocusedInactiveBackground": "#20232A",
     "tab.unfocusedInactiveForeground": "#454c5c",
 
-
-    //-- Terminal
-
+    // Terminal
     "terminal.ansiBlack": "#1E2127",
     "terminal.ansiBlue": "#61AFEF",
     "terminal.ansiBrightBlack": "#5C6370",
@@ -414,15 +354,11 @@
     "terminalCommandDecoration.errorBackground": "#d04843",
     "terminalCommandDecoration.defaultBackground": "#4398d0",
 
-
-    //-- Text links
-
+    // Text links
     "textLink.activeForeground": "#3498dbbf",
     "textLink.foreground": "#3498db", // Done
 
-
-    //-- Title bar (macOS only)
-
+    // Title bar (macOS only)
     "titleBar.activeBackground": "#20232A", // Done
     "titleBar.activeForeground": "#737c8f", // Done
     "titleBar.border": "#20232A", // Done
@@ -431,9 +367,7 @@
 
     "widget.shadow": "#20232A30",
 
-
-    //-- Plugins
-
+    // Plugins
     "gitlens.trailingLineForegroundColor": "#636d83"                                  // Copilot text
 
   },
@@ -468,14 +402,10 @@
         "meta.brace.round",                                                     // Round brackets
         "variable.other.jsdoc",                                                 // JSDoc var
 
-
-        //-- CSS
-
+        // CSS
         "support.constant.property-value.css",                                  // CSS property values
 
-
-        //-- JSX
-
+        // JSX
         "meta.jsx.children"                                                     // JSX children
 
       ],
@@ -487,16 +417,12 @@
       "name": "Medium dark Gray",
       "scope": [
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.fenced_code.block.markdown",                                    // Markdown code blocks
         "punctuation.definition.quote.begin.markdown",                          // Markdown quotes punctuation
         "markup.quote.markdown",                                                // Markdown quotes
 
-
-        //-- Shell
-
+        // Shell
         "meta.scope.subshell.shell"                                             // Subshell
       ],
       "settings": {
@@ -544,46 +470,32 @@
         "keyword.operator.decrement",                                           // Decrement: --
         "keyword.other.debugger.ts",                                            // Debugger
 
-
-        //-- HTML
-
+        // HTML
         "entity.name.tag",                                                      // HTML tags
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.heading",                                                       // Markdown Markup heading
         "markup.deleted.diff",                                                  // Markdown Markup deleted
         "punctuation.definition.deleted.diff",                                  // Markdown Markup deleted punctuation
 
-
-        //-- CSS
-
+        // CSS
         "entity.name.tag.css",                                                  // CSS html tag
         "meta.property-name.css support.type",                                  // CSS property name
         "support.type.property-name.css",                                       // CSS property name
         "variable.argument.css",                                                // CSS variable argument
         "variable.css",                                                         // CSS variable
 
-
-        //-- Tailwind
-
+        // Tailwind
         "variable.parameter.screen.tailwind",                                   // Tailwind screen parameter
 
-
-        //-- PHP
-
+        // PHP
         "variable.other.php",                                                   // PHP variable
         "punctuation.definition.variable.php",                                  // PHP variable punctuation
 
-
-        //-- YAML
-
+        // YAML
         "entity.name.tag.yaml",                                                 // YAML tag
 
-
-        //-- Shell
-
+        // Shell
         "variable.other.normal.shell",                                          // Shell variable
         "variable.other.special.shell",                                         // Shell special variable
         "punctuation.section.bracket.curly.variable.begin.shell",               // Shell variable curly braces
@@ -599,22 +511,16 @@
       "name": "Dark Red",
       "scope": [
 
-
-        //-- PHP
-
+        // PHP
         "punctuation.section.embedded.begin.php",                               // PHP embedded code begin
         "punctuation.section.embedded.end.php",                                 // PHP embedded code end
 
-
-        //-- Shell
-
+        // Shell
         "punctuation.definition.variable.shell",                                // Shell variable
         "punctuation.definition.evaluation.parens.begin.shell",                 // Shell evaluation
         "punctuation.definition.evaluation.parens.end.shell",                   // Shell evaluation
 
-
-        //-- Markdown
-
+        // Markdown
         "fenced_code.block.language.markdown",                                  // Markdown code block language
         "fenced_code.block.language",                                           // Markdown code block language
         "punctuation.definition.markdown"
@@ -628,9 +534,7 @@
       "name": "Striketrough",
       "scope": [
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.strikethrough.markdown"                                         // Markdown strikethrough
       ],
       "settings": {
@@ -641,14 +545,10 @@
       "name": "Italic",
       "scope": [
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.italic.markdown",                                               // Markdown bold
 
-
-        //-- CSS
-
+        // CSS
         "support.type.vendored.property-name.css",                              // CSS vendored property name
         "support.type.vendored.property-value.css",                             // CSS vendored property value
         "support.constant.vendored.property-value"                              // CSS vendored property value
@@ -662,9 +562,7 @@
       "name": "Bold",
       "scope": [
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.bold.markdown"                                                  // Markdown bold
 
       ],
@@ -676,9 +574,7 @@
       "name": "No font style",
       "scope": [
 
-
-        //-- Markdown
-
+        // Markdown
         "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
         "punctuation.definition.bold.markdown",                                 // Markdown bold punctuation
         "punctuation.definition.italic.markdown"                                // Markdown italic punctuation
@@ -706,9 +602,7 @@
         "keyword.operator.expression.delete",                                   // delete keyword
         "keyword.operator.expression.void",                                     // void keyword
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.underline.link.markdown",                                       // Markdown link
         "punctuation.definition.metadata.markdown",                             // Markdown punctuation
         "punctuation.definition.heading.markdown",                              // Markdown heading punctuation
@@ -723,23 +617,17 @@
         "punctuation.definition.strikethrough.markdown",                        // Markdown strikethrough punctuation
         "meta.separator.markdown",                                              // Markdown separator
 
-
-        //-- Shell
-
+        // Shell
         "keyword.operator.redirect.shell",                                      // shell redirect
 
-
-        //-- PHP
-
+        // PHP
         "keyword.operator.logical.php",                                         // PHP logical operators
         "keyword.operator.comparison.php",                                      // PHP comparison operators
         "keyword.operator.arithmetic.php",                                      // PHP arithmetic operators
         "keyword.operator.assignment.php",                                      // PHP assignment operators
         "keyword.operator.bitwise.php",                                         // PHP bitwise operators
 
-
-        //-- CSS
-
+        // CSS
         "keyword.other.important.css"                                           // CSS important
 
       ],
@@ -753,19 +641,13 @@
         "meta.function-call",                                                   // function calls
         "entity.name.function",                                                 // function names
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.underline.link.markdown",                                       // Markdown link
 
-
-        //-- ini
-
+        // ini
         "entity.name.section.group-title.ini",                                  // ini section group title
 
-
-        //-- Shell
-
+        // Shell
         "meta.function.shell",                                                  // Shell function
         "meta.command.shell"                                                    // Shell function call
 
@@ -800,14 +682,10 @@
         "keyword.operator.relational",                                          // Relational operators like < > <= >=
         "entity.name.type.class",                                               // Class name
 
-
-        //-- JSON
-
+        // JSON
         "constant.language.json",                                               // JSON true false etc
 
-
-        //-- PHP
-
+        // PHP
         "support.function.basic_functions.php",                                 // PHP built-in functions
         "support.function.file.php",                                            // PHP built-in functions
         "support.function.dir.php",                                             // PHP built-in functions
@@ -816,23 +694,17 @@
         "support.function.construct.input.php",                                 // PHP built-in functions
         "support.function.construct.php",                                       // PHP built-in functions
 
-
-        //-- Shell
-
+        // Shell
         "support.function.builtin.shell",                                       // Shell built-in functions
         "punctuation.section.array.shell",                                      // Shell array punctuation
         "punctuation.separator.statement.and.shell",                            // Shell and separator
 
-
-        //-- CSS
-
+        // CSS
         "meta.function.variable.css",                                           // CSS variable function
         "meta.function.misc.css",                                               // CSS misc functions
         "meta.function.timing-function.css",                                    // CSS timing function
 
-
-        //-- Tailwind
-
+        // Tailwind
         "support.function.theme.tailwind",                                      // Tailwind function
         "support.function.screen.tailwind"                                      // Tailwind function
 
@@ -851,23 +723,17 @@
         "constant.numeric.decimal",                                             // Decimal numbers
         "constant.language.undefined",                                          // undefined keyword
 
-
-        //-- TypeScript/JavaScript
-
+        // TypeScript/JavaScript
         "keyword.operator.definiteassignment.ts",                               // possiblyUndefined! <
         "punctuation.accessor.optional",                                        // Optional chaining question mark
 
-
-        //-- Markdown
-
+        // Markdown
         "string.other.link.title.markdown",                                     // Markdown link title
         "markup.italic.markdown",                                               // Markdown italic
         "markup.bold.markdown",                                                 // Markdown bold
         "markup.strikethrough.markdown",                                        // Markdown strikethrough
 
-
-        //-- CSS
-
+        // CSS
         "keyword.other.unit.px.css",                                            // CSS px unit
         "keyword.other.unit.em.css",                                            // CSS em unit
         "keyword.other.unit.rem.css",                                           // CSS rem unit
@@ -913,9 +779,7 @@
         "keyword.other.unit.Hz.css",                                            // CSS Hz unit
         "keyword.other.unit.kHz.css",                                           // CSS kHz unit
 
-
-        //-- Shell
-
+        // Shell
         "constant.other.option.dash.shell"                                      // Shell option dash
 
       ],
@@ -943,23 +807,17 @@
         "tsTaggedTemplates",                                                    // Tagged Template strings
         "keyword.operator.increment",                                           // Increment: ++
 
-
-        //-- Markdown
-
+        // Markdown
         "markup.inline.raw.string.markdown",                                    // Markdown raw string
         "punctuation.definition.raw.markdown",                                  // Markdown raw string quotes
         "punctuation.definition.inserted.diff",                                 // Markdown inserted diff
         "markup.inserted.diff",                                                 // Markdown inserted diff
 
-
-        //-- YAML
-
+        // YAML
         "string.unquoted.plain.in.yaml",                                        // YAML unquoted plain string
         "string.unquoted.plain.out.yaml",                                       // YAML unquoted plain string
 
-
-        //-- Shell
-
+        // Shell
         "variable.other.bracket.shell ",                                        // Shell bracket variable
         "string.quoted.double.shell"                                            // Shell double quoted string
 
