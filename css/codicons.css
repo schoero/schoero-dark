@@ -1,0 +1,4 @@
+.codicon,
+.codicon[class*=codicon-]{
+  user-select: text;
+}
