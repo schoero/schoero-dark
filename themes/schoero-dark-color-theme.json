@@ -192,13 +192,13 @@
     "gitDecoration.conflictingResourceForeground": "#E06C75",
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.ignoredResourceForeground": "#4f5769",
-    "gitDecoration.modifiedResourceForeground": "#D19A66",
+    "gitDecoration.modifiedResourceForeground": "#61AFEF",
     "gitDecoration.untrackedResourceForeground": "#98C379",
     "gitDecoration.submoduleResourceForeground": "#61AFEF",
     "gitDecoration.addedResourceForeground": "#98C379",
     "gitDecoration.stageDeletedResourceForeground": "#E06C75",
     "gitDecoration.renamedResourceForeground": "#61AFEF",
-    "gitDecoration.stageModifiedResourceForeground": "#D19A66",
+    "gitDecoration.stageModifiedResourceForeground": "#61AFEF",
 
 
     //-- Input
