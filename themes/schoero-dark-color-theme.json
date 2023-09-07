@@ -81,6 +81,8 @@
 
     //-- Diff Editor
 
+    "diffEditor.move.border": "#828a9c",
+    "diffEditor.moveActive.border": "#61AFEF",
     "diffEditor.insertedTextBackground": "#98C37920",
     "diffEditor.insertedLineBackground": "#98C37920",
     "diffEditorGutter.insertedLineBackground": "#98C37920",
