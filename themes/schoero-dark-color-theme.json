@@ -130,8 +130,8 @@
 
     "editorHoverWidget.background": "#20232A",
     "editorHoverWidget.border": "#A9ABAE10",
-    "editorIndentGuide.activeBackground": "#53565d",
-    "editorIndentGuide.background": "#3e4148",
+    "editorIndentGuide.activeBackground1": "#53565d",
+    "editorIndentGuide.background1": "#3e4148",
     "editorLineNumber.activeForeground": "#a1a7b5",
     "editorLineNumber.foreground": "#636d83",
     "editorLink.activeForeground": "#3498dbbf",                               // link color
