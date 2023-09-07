@@ -168,13 +168,13 @@
     "gitDecoration.conflictingResourceForeground": "#E06C75",
     "gitDecoration.deletedResourceForeground": "#E06C75",
     "gitDecoration.ignoredResourceForeground": "#4f5769",
-    "gitDecoration.modifiedResourceForeground": "#61AFEF",
+    "gitDecoration.modifiedResourceForeground": "#7db2de",
     "gitDecoration.untrackedResourceForeground": "#98C379",
-    "gitDecoration.submoduleResourceForeground": "#61AFEF",
+    "gitDecoration.submoduleResourceForeground": "#7db2de",
     "gitDecoration.addedResourceForeground": "#98C379",
     "gitDecoration.stageDeletedResourceForeground": "#E06C75",
-    "gitDecoration.renamedResourceForeground": "#61AFEF",
-    "gitDecoration.stageModifiedResourceForeground": "#61AFEF",
+    "gitDecoration.renamedResourceForeground": "#7db2de",
+    "gitDecoration.stageModifiedResourceForeground": "#7db2de",
 
     // Input
     "input.background": "#282C34",
