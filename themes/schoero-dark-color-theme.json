@@ -79,6 +79,9 @@
     "diffEditorGutter.removedLineBackground": "#E06C7520",
     "diffEditor.diagonalFill": "#E06C7540", // Done
 
+    "multiDiffEditor.headerBackground": "#20232A",
+    "multiDiffEditor.border": "#828a9c",
+
     // ErrorLens
     "errorLens.infoForeground": "#4398d0",
     "errorLens.errorForeground": "#d04843",
