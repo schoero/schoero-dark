@@ -13,7 +13,6 @@
     "url": "https://github.com/schoero/schoero-dark/issues"
   },
   "scripts": {
-    "changelog": "./node_modules/conventional-changelog-cli/cli.js -p angular -i CHANGELOG.md -s -c .conventional-changelog.config.js && git add CHANGELOG.md",
     "eslint": "node_modules/.bin/eslint --ext .ts,.tsx,.js,.jsx,.json,.jsonc,.yml,.md ./",
     "eslint:ci": "npm run eslint -- --max-warnings 0",
     "eslint:fix": "npm run eslint -- --fix",
@@ -23,7 +22,7 @@
     "markdownlint": "node_modules/.bin/markdownlint-cli2 '**/*.md' '#node_modules'",
     "markdownlint:ci": "npm run markdownlint",
     "markdownlint:fix": "node_modules/.bin/markdownlint-cli2-fix '**/*.md' '#node_modules'",
-    "postversion": "npm run changelog && git push && git push --tags",
+    "postversion": "git push && git push --tags",
     "spellcheck": "node_modules/.bin/cspell lint",
     "spellcheck:ci": "npm run spellcheck -- --no-progress"
   },
@@ -31,10 +30,11 @@
     "vscode": "^1.65.0"
   },
   "devDependencies": {
-    "@schoero/cspell-config": "^1.6.14",
-    "@schoero/eslint-config": "^1.39.0",
-    "@schoero/markdownlint-config": "^1.1.6",
-    "conventional-changelog-cli": "^2.2.2"
+    "@schoero/configs": "^1.0.13",
+    "cspell": "^8.8.3",
+    "eslint": "^8.57.0",
+    "markdownlint": "^0.34.0",
+    "npm": "^10.8.0"
   },
   "keywords": [
     "atom",

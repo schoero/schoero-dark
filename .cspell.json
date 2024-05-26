@@ -1,6 +1,9 @@
 {
+  "ignorePaths": [
+    "node_modules/**"
+  ],
   "import": [
-    "@schoero/cspell-config"
+    "@schoero/configs/cspell"
   ],
   "words": [
     // Additional words
