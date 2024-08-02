@@ -1,4 +1,7 @@
-/* Remove borders */
+.monaco-workbench .part.editor > .content .editor-group-container .tabs-and-actions-container .tabs-container {
+  --editor-group-tab-height: 32px!important;
+}
+
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.wrapping .tabs-container > .tab {
   border: 0!important;
 }

@@ -1,0 +1,13 @@
+/* file explorer */
+.monaco-tree .monaco-tree-row .label-name,
+.monaco-list .monaco-list-row
+.monaco-icon-label .label-name {
+  font-family: "Menlo", "Monaco", "Courier New", "monospace" !important;
+  font-size: 12px!important;
+}
+
+/* tabs */
+.monaco-workbench .tabs-container .tab .label-name {
+  font-family: "Menlo", "Monaco", "Courier New", "monospace" !important;
+  font-size: 12px!important;
+}
