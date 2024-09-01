@@ -706,6 +706,7 @@
         "meta.function.variable.css",                                           // CSS variable function
         "meta.function.misc.css",                                               // CSS misc functions
         "meta.function.timing-function.css",                                    // CSS timing function
+        "support.function.css",                                                 // CSS functions
 
         // Tailwind
         "support.function.theme.tailwind",                                      // Tailwind function
