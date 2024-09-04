@@ -6,7 +6,7 @@
 
     // Activity bar
     "activityBar.background": "#20232A",
-    "activityBar.border": "#282c34",                                          // sidebar border right
+    "activityBar.border": "#282c34",                                        // sidebar border right
     "activityBar.activeBorder": "#323742",
     "activityBar.activeFocusBorder": "#32374200",
     "activityBar.dropBorder": "#528bff",
@@ -17,7 +17,7 @@
     "activityBarBadge.foreground": "#e0e2e6",
 
     // Badge
-    "badge.background": "#454c5c",                                            // badge
+    "badge.background": "#454c5c",                                          // badge
     "badge.foreground": "#e0e2e6",
 
     // Inlay hints
@@ -25,17 +25,17 @@
     "editorInlayHint.foreground": "#b1b6c1",
 
     // Breadcrumbs
-    "breadcrumb.activeSelectionForeground": "#b1b6c1",                        // breadcrumb active selection
+    "breadcrumb.activeSelectionForeground": "#b1b6c1",                      // breadcrumb active selection
     "breadcrumb.background": "#282C34",
-    "breadcrumb.focusForeground": "#9299a8",                                  // breadcrumb hover
-    "breadcrumb.foreground": "#737c8f",                                       // breadcrumb default
+    "breadcrumb.focusForeground": "#9299a8",                                // breadcrumb hover
+    "breadcrumb.foreground": "#737c8f",                                     // breadcrumb default
     "breadcrumbPicker.background": "#1c1f24",
 
     "button.background": "#3b414f",
     "button.foreground": "#e0e2e6",
     "button.hoverBackground": "#454c5c",
     "button.secondaryBackground": "#323742",
-    "contrastBorder": "#282c34",                                              // border around badge, buttons, below breadcrumbs
+    "contrastBorder": "#282c34",                                            // border around badge, buttons, below breadcrumbs
 
     // Debugger
     "debugIcon.restartForeground": "#98C379",
@@ -92,20 +92,20 @@
     "dropdown.border": "#3e4148",
 
     // Editor
-    "editor.background": "#282C34",                                           // Editor background
-    "editorGroup.emptyBackground": "#282C34",                                 // Empty editor background
+    "editor.background": "#282C34",                                         // Editor background
+    "editorGroup.emptyBackground": "#282C34",                               // Empty editor background
 
     "editor.findMatchBackground": "#454c5c",
     "editor.findMatchBorder": "#454c5c",
     "editor.findMatchHighlightBackground": "#454c5c88",
     "editor.findMatchHighlightBorder": "#454c5c88",
-    "editor.foreground": "#b1b6c1",                                           // font color
-    "editor.lineHighlightBackground": "#323742",                              // Active line background
+    "editor.foreground": "#b1b6c1",                                         // font color
+    "editor.lineHighlightBackground": "#323742",                            // Active line background
     "editor.selectionBackground": "#324164",
     "editor.selectionHighlightBackground": "#324164bb", // fine tune
     "editor.selectionHighlightBorder": "#323742", // fine tune
     "editorCodeLens.foreground": "#4f5769",
-    "editorGhostText.foreground": "#636d83",                                  // Copilot text
+    "editorGhostText.foreground": "#636d83",                                // Copilot text
     "editorBracketMatch.background": "#282c34",
     "editorBracketMatch.border": "#828a9c",
     "editor.wordHighlightBackground": "#636d8344",
@@ -118,13 +118,14 @@
     "editorInfo.foreground": "#4398d0",
     "editorHint.foreground": "#4398d0",
 
-    "editorGroupHeader.tabsBackground": "#20232A",                            // Tab bar background
-    "editorGroupHeader.tabsBorder": "#282C34",                                // Tab bar border bottom
-    "editorGroupHeader.border": "#282C34",                                    // Border bottom of the breadcrumb
-    "editorGroupHeader.noTabsBackground": "#282C34",                          // Tab bar background when tabs are disabled
+    "editorGroupHeader.tabsBackground": "#20232A",                          // Tab bar background
+    "editorGroupHeader.tabsBorder": "#282C34",                              // Tab bar border bottom
+    "editorGroupHeader.border": "#282C34",                                  // Border bottom of the breadcrumb
+    "editorGroupHeader.noTabsBackground": "#282C34",                        // Tab bar background when tabs are disabled
 
+    "editorStickyScrollHover.background": "#323742",                        // Hover Line color for sticky scroll
 
-    "editor.linkedEditingBackground": "#324164",                              // Linked editing background
+    "editor.linkedEditingBackground": "#324164",                            // Linked editing background
 
     // Modification marks besides the line numbers
     "editorGutter.modifiedBackground": "#438cd0",
@@ -137,11 +138,11 @@
     "editorIndentGuide.background1": "#3e4148",
     "editorLineNumber.activeForeground": "#a1a7b5",
     "editorLineNumber.foreground": "#636d83",
-    "editorLink.activeForeground": "#3498dbbf",                               // link color
-    "editorMarkerNavigation.background": "#20232a",                           // inline full width widget (view problem)
+    "editorLink.activeForeground": "#3498dbbf",                             // link color
+    "editorMarkerNavigation.background": "#20232a",                         // inline full width widget (view problem)
 
     // Scrollbar
-    "editorOverviewRuler.border": "#282C34",                                  // Scrollbar border
+    "editorOverviewRuler.border": "#282C34",                                // Scrollbar border
 
     // Scrollbar marks
     "editorOverviewRuler.errorForeground": "#d04843",
@@ -152,7 +153,7 @@
     "editorOverviewRuler.addedForeground": "#43d08a",
     "editorOverviewRuler.deletedForeground": "#FF6347",
 
-    "editorRuler.foreground": "#3b414f",                                      // Guide lines (Ruler)
+    "editorRuler.foreground": "#3b414f",                                    // Guide lines (Ruler)
 
     "editorSuggestWidget.background": "#20232A",
     "editorSuggestWidget.border": "#A9ABAE10",
@@ -200,7 +201,7 @@
     "keybindingLabel.foreground": "#e0e2e6",
 
     // Quick input
-    "quickInputTitle.background": "#20232a",                                  // Quick input title background (settings sync configure title)
+    "quickInputTitle.background": "#20232a",                                // Quick input title background (settings sync configure title)
 
     // List
     "list.activeSelectionBackground": "#323742",
