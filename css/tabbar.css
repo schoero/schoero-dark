@@ -42,5 +42,10 @@
 
 /* Fix for last-in-row tab sizing */
 .monaco-workbench .part.editor > .content .editor-group-container > .title > .tabs-and-actions-container.wrapping .tabs-container > .tab.sizing-fit.last-in-row {
-  flex-grow: 0;
+  flex-grow: 0!important;
+}
+
+/* Hide new active tab top border */
+.monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.active.tab-border-top:not(:focus)>.tab-border-top-container, .monaco-workbench .part.editor>.content .editor-group-container>.title .tabs-container>.tab.selected.tab-border-top:not(:focus)>.tab-border-top-container {
+  display: none;
 }
