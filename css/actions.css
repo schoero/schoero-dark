@@ -22,3 +22,13 @@
 .monaco-workbench .basepanel .monaco-action-bar .action-item.checked:not(:focus) .active-item-indicator:before {
   border: none!important;
 }
+
+/* Remove border right */
+.monaco-workbench.floating-panels .part.activitybar.left {
+  border-right: none!important;
+}
+
+/* Remove item divider in sidebar */
+.modern-ui :is(.part.sidebar,.part.auxiliarybar) .monaco-pane-view .pane>.pane-header:before {
+  display: none!important;
+}
