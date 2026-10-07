@@ -15,3 +15,7 @@
 .monaco-workbench .part.editor > .content .editor-group-container > .title .editor-actions {
   outline: none!important;
 }
+
+.monaco-workbench .part.editor > .content .editor-group-container > .title .tabs-container > .tab:not(.last-in-row) + .tab > .tab-divider {
+    display: none!important;
+}
