@@ -44,7 +44,7 @@
     "debugIcon.breakpointUnverifiedForeground": "#a1a7b5",
     "debugIcon.continueForeground": "#61AFEF",
     "debugIcon.disconnectForeground": "#E06C75",
-    "debugIcon.pauseForeground": "#61AFEF",                                            // border around badge, buttons, below breadcrumbs
+    "debugIcon.pauseForeground": "#61AFEF",                                // border around badge, buttons, below breadcrumbs
 
     // Debugger
     "debugIcon.restartForeground": "#98C379",
@@ -81,7 +81,8 @@
     "dropdown.border": "#3e4148",
 
     // Editor
-    "editor.background": "#24282f",                                          // Empty editor background
+    "editor.background": "#24282f",                                         // Empty editor background
+    "foreground":"#d0d3da",                                                 // Editor text
 
     "editor.findMatchBackground": "#454c5c",
     "editor.findMatchBorder": "#454c5c",
@@ -96,7 +97,7 @@
     "editor.selectionHighlightBorder": "#323742",
     "editor.stackFrameHighlightBackground": "#d0b24328",
     "editor.wordHighlightBackground": "#636d8344",
-    "editor.wordHighlightStrongBackground": "#9299a844",                                // Copilot text
+    "editor.wordHighlightStrongBackground": "#9299a844",                    // Copilot text
     "editorBracketMatch.background": "#282c34",
     "editorBracketMatch.border": "#828a9c", // fine tune
     "editorCodeLens.foreground": "#4f5769",
@@ -104,7 +105,7 @@
     "editorCursor.foreground": "#528bff",
     "editorError.foreground": "#d04843",
     "editorGhostText.foreground": "#636d83",
-    "editorGroup.border": "#454c5c",                                         // Editor background
+    "editorGroup.border": "#454c5c",                                        // Editor background
     "editorGroup.emptyBackground": "#282C34",
 
     // Tab bar border bottom
@@ -114,6 +115,8 @@
     "editorGroupHeader.tabsBorder": "#282C34",
     "editorGutter.addedBackground": "#43D08A",
     "editorGutter.deletedBackground": "#FF6347",                            // Linked editing background
+
+    "toolbar.hoverBackground": "#282c34",
 
     // Modification marks besides the line numbers
     "editorGutter.modifiedBackground": "#438cd0",
@@ -132,22 +135,22 @@
     "editorLineNumber.foreground": "#636d83",
     "editorLink.activeForeground": "#3498dbbf",                             // link color
     "editorMarkerNavigation.background": "#20232a",
-    "editorOverviewRuler.addedForeground": "#43d08a",                         // inline full width widget (view problem)
+    "editorOverviewRuler.addedForeground": "#43d08a",                       // inline full width widget (view problem)
 
     // Scrollbar
     "editorOverviewRuler.border": "#282C34",
-    "editorOverviewRuler.deletedForeground": "#FF6347",                                // Scrollbar border
+    "editorOverviewRuler.deletedForeground": "#FF6347",                     // Scrollbar border
 
     // Scrollbar marks
     "editorOverviewRuler.errorForeground": "#d04843",
-    "editorOverviewRuler.findMatchForeground": "#324164",
+    "editorOverviewRuler.findMatchForeground": "#32416488",
     "editorOverviewRuler.infoForeground": "#4398d0",
     "editorOverviewRuler.modifiedForeground": "#438cd0",
     "editorOverviewRuler.warningForeground": "#d0b243",
 
-    "editorRuler.foreground": "#3b414f",                        // Tab bar background when tabs are disabled
+    "editorRuler.foreground": "#3b414f",                                    // Tab bar background when tabs are disabled
 
-    "editorStickyScrollHover.background": "#323742",                                    // Guide lines (Ruler)
+    "editorStickyScrollHover.background": "#323742",                        // Guide lines (Ruler)
 
     "editorSuggestWidget.background": "#20232A",
     "editorSuggestWidget.border": "#A9ABAE10",
@@ -161,13 +164,6 @@
     "editorWidget.resizeBorder": "#454c5c",
     "errorLens.errorForeground": "#d04843",
 
-    // ErrorLens
-    "errorLens.infoForeground": "#4398d0",
-    "errorLens.warningForeground": "#d0b243",
-    "extensionButton.prominentBackground": "#4f5769",
-    "extensionButton.prominentHoverBackground": "#636d83",
-    "focusBorder": "#636d83",
-
     // Git decorations
     "gitDecoration.addedResourceForeground": "#98C379",
     "gitDecoration.conflictingResourceForeground": "#E06C75",
@@ -180,9 +176,16 @@
     "gitDecoration.submoduleResourceForeground": "#7db2de",
     "gitDecoration.untrackedResourceForeground": "#98C379",
 
-
     // Plugins
     "gitlens.trailingLineForegroundColor": "#636d83",
+
+    "errorLens.infoForeground": "#4398d0",
+    "errorLens.warningForeground": "#d0b243",
+
+    "extensionButton.prominentBackground": "#4f5769",
+    "extensionButton.prominentHoverBackground": "#636d83",
+    "focusBorder": "#636d83",
+
     
     // Input
     "input.background": "#24282f",
@@ -381,7 +384,7 @@
     "titleBar.inactiveForeground": "#454c5c",
     "tree.indentGuidesStroke": "#454c5c",
 
-    "widget.shadow": "#20232A30",                                              // Copilot text
+    "widget.shadow": "#20232A30",                                             // Copilot text
     "widget.border": "#1c1f24",
     "surface.border": "#1c1f24",
 
